@@ -8,7 +8,7 @@
  *   1. Structural completeness (all required sections, roles, type steps).
  *   2. Every semantic role references an existing palette primitive.
  *   3. Scale consistency (spacing multiples of base, monotonic type scale,
- *      line-height within 1.0–2.0).
+ *      line-height within 0.8–2.0; below 1.0 warns).
  *   4. WCAG 2.1 contrast ratios (text/bg >= 4.5, text-muted/bg >= 3.0,
  *      accent-contrast/accent >= 4.5) for every color mode.
  *   5. Every font family has a non-empty `license` field (font-license-check).
@@ -332,10 +332,15 @@ function validateTypography(typography) {
       const lh = unwrap(p.lineHeight);
       if (typeof lh !== "number" || !Number.isFinite(lh)) {
         if ("lineHeight" in p) err(`${pPath}.lineHeight`, `expected a number, got ${JSON.stringify(lh)}`);
-      } else if (lh < 1.0 || lh > 2.0) {
+      } else if (lh < 0.8 || lh > 2.0) {
         err(
           `${pPath}.lineHeight`,
-          `must be a unitless multiplier within 1.0–2.0, got ${lh}${lh > 3 ? " (looks like px — divide by font size)" : ""}`,
+          `must be a unitless multiplier within 0.8–2.0, got ${lh}${lh > 3 ? " (looks like px — divide by font size)" : ""}`,
+        );
+      } else if (lh < 1.0) {
+        warn(
+          `${pPath}.lineHeight`,
+          `tight leading ${lh} (<1.0) — expected only for display/heading serif steps; verify against the reference`,
         );
       }
       if ("weight" in p) requireNumber(p.weight, `${pPath}.weight`, { min: 100, max: 900 });
