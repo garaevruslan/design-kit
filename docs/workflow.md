@@ -27,7 +27,7 @@
 | --- | --- | --- |
 | 0. Инициализация | DESIGN-CONTRACT.md целиком | project/inputs.md: референсы (URL/файлы), бриф или готовый контент, масштаб проекта, брейкпоинты |
 | 1. Reference Study | extraction-css.md и/или extraction-vision.md (по формату референса) | reference-study.md, reference-inventory.md, эталонные скриншоты в project/reference-shots/ |
-| 2. Дизайн-система | tokens-format.md | tokens.json (валиден по scripts/validate-tokens.mjs), design-system.md |
+| 2. Дизайн-система | tokens-format.md; для specimen — figma-library-rules.md §specimen | tokens.json (валиден по scripts/validate-tokens.mjs), design-system.md, specimen в Figma (обязателен для гейта 1) |
 | 3. Контент | content-doc-format.md | content-doc.md (принятый готовый или сгенерированный из брифа) |
 | 4. Библиотека | figma-library-rules.md; при отсутствии Figma MCP — fallback-html.md | Figma variables + компоненты; план библиотеки в worklog |
 | 5. Сборка | assembly-rules.md | Страницы в Figma (desktop + mobile), источник композиции каждой секции в worklog |
