@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "project": "Nordwind Logistics — B2B landing",
+    "sourceRefs": [
+      "https://reference-site.example.com",
+      "project/reference-shots/pricing-mobile.png"
+    ],
+    "extractionMethod": "mixed",
+    "date": "2026-07-05"
+  },
+  "color": {
+    "palette": {
+      "white":     { "value": "#FFFFFF", "source": "css" },
+      "gray-100":  { "value": "#F2F4F8", "source": "css" },
+      "gray-300":  { "value": "#C6CDD8", "source": "css" },
+      "gray-500":  { "value": "#5B6675", "source": "css" },
+      "ink-700":   { "value": "#3D4657", "source": "css" },
+      "ink-900":   { "value": "#1A1F29", "source": "css" },
+      "ink-950":   { "value": "#0E1116", "source": "css" },
+      "blue-300":  { "value": "#93B0FF", "source": "css" },
+      "blue-700":  { "value": "#2450C7", "source": "css" },
+      "green-600": { "value": "#178A50", "source": "css" },
+      "amber-500": { "value": "#E8A13C", "source": "vision", "confidence": "medium" },
+      "red-600":   { "value": "#D24040", "source": "css" }
+    },
+    "modes": {
+      "light": {
+        "bg":              { "ref": "white" },
+        "surface":         { "ref": "gray-100" },
+        "text":            { "ref": "ink-900" },
+        "text-muted":      { "ref": "gray-500" },
+        "accent":          { "ref": "blue-700" },
+        "accent-contrast": { "ref": "white" },
+        "border":          { "ref": "gray-300" },
+        "success":         { "ref": "green-600" },
+        "warning":         { "ref": "amber-500" },
+        "danger":          { "ref": "red-600" }
+      },
+      "dark": {
+        "bg":              { "ref": "ink-950" },
+        "surface":         { "ref": "ink-900" },
+        "text":            { "ref": "gray-100" },
+        "text-muted":      { "ref": "gray-300" },
+        "accent":          { "ref": "blue-300" },
+        "accent-contrast": { "ref": "ink-950" },
+        "border":          { "ref": "ink-700" },
+        "success":         { "ref": "green-600" },
+        "warning":         { "ref": "amber-500" },
+        "danger":          { "ref": "red-600" }
+      }
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "heading": {
+        "family": "Space Grotesk",
+        "fallback": "system-ui, sans-serif",
+        "license": "SIL OFL 1.1 (Google Fonts); font-license-check passed 2026-07-05",
+        "replacedFrom": "Söhne (commercial, license not confirmed)",
+        "source": "css"
+      },
+      "body": {
+        "family": "Inter",
+        "fallback": "system-ui, sans-serif",
+        "license": "SIL OFL 1.1 (Google Fonts); font-license-check passed 2026-07-05",
+        "source": "css"
+      }
+    },
+    "typeScale": {
+      "caption": {
+        "desktop": { "size": 13, "lineHeight": 1.4,  "weight": 500, "letterSpacing": 0.01 },
+        "mobile":  { "size": 12, "lineHeight": 1.4,  "weight": 500, "letterSpacing": 0.01 }
+      },
+      "body": {
+        "desktop": { "size": 16, "lineHeight": 1.6,  "weight": 400, "letterSpacing": 0 },
+        "mobile":  { "size": 15, "lineHeight": 1.6,  "weight": 400, "letterSpacing": 0 }
+      },
+      "body-lg": {
+        "desktop": { "size": 18, "lineHeight": 1.6,  "weight": 400, "letterSpacing": 0 },
+        "mobile":  { "size": 16, "lineHeight": 1.6,  "weight": 400, "letterSpacing": 0 }
+      },
+      "h3": {
+        "desktop": { "size": 24, "lineHeight": 1.3,  "weight": 600, "letterSpacing": -0.01 },
+        "mobile":  { "size": 20, "lineHeight": 1.35, "weight": 600, "letterSpacing": -0.01 }
+      },
+      "h2": {
+        "desktop": { "size": 32, "lineHeight": 1.25, "weight": 600, "letterSpacing": -0.015 },
+        "mobile":  { "size": 26, "lineHeight": 1.3,  "weight": 600, "letterSpacing": -0.01 }
+      },
+      "h1": {
+        "desktop": { "size": 48, "lineHeight": 1.15, "weight": 700, "letterSpacing": -0.02 },
+        "mobile":  { "size": 34, "lineHeight": 1.2,  "weight": 700, "letterSpacing": -0.015 }
+      },
+      "display": {
+        "desktop": { "size": 64, "lineHeight": 1.05, "weight": 700, "letterSpacing": -0.025 },
+        "mobile":  { "size": 40, "lineHeight": 1.1,  "weight": 700, "letterSpacing": -0.02 }
+      }
+    }
+  },
+  "spacing": {
+    "base": 4,
+    "scale": [4, 8, 12, 16, 24, 32, 48, 64, 96, 128]
+  },
+  "radius": {
+    "none": 0,
+    "sm": 6,
+    "md": 10,
+    "lg": 16,
+    "pill": 999
+  },
+  "shadows": {
+    "sm": { "value": "0 1px 2px rgba(14, 17, 22, 0.08)", "source": "css" },
+    "md": { "value": "0 4px 12px rgba(14, 17, 22, 0.10)", "source": "css" },
+    "lg": { "value": "0 16px 40px rgba(14, 17, 22, 0.14)", "source": "vision", "confidence": "medium" }
+  },
+  "breakpoints": {
+    "desktop": 1440,
+    "mobile": 390
+  },
+  "grid": {
+    "desktop": { "container": 1200, "columns": 12, "gutter": 24 },
+    "mobile":  { "container": 358,  "columns": 4,  "gutter": 16 }
+  }
+}
