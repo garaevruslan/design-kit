@@ -48,16 +48,24 @@ description: >-
 - **Гейты блокируют.** В конце фаз 2, 3, 4 и 6 остановись, предъяви артефакты,
   запроси явное утверждение. Продолжать без «утверждаю» нельзя
   (`gates-are-blocking`). Утверждение зафиксируй в worklog. Гейт 1 предъявляется
-  ТОЛЬКО вместе со specimen в Figma (см. контракт, `tokens-before-pixels`).
+  ТОЛЬКО вместе со specimen — в форме пути проекта: страница Figma / фрейм
+  «00 Specimen» в .pen / specimen-страница в браузере (см. контракт,
+  `tokens-before-pixels`, «Пути без Figma MCP»).
 - **Никаких значений из памяти.** Цвета/шрифты/отступы — только из извлечённых данных
   или tokens.json (`reference-source-of-truth`, `tokens-before-pixels`).
 - **Worklog по ходу, не задним числом** (`worklog-required`).
 - **tokens.json валидируй скриптом** `node scripts/validate-tokens.mjs project/tokens.json`
   до предъявления на гейт 1.
-- **Перед use_figma** загрузи скиллы figma-use (и figma-generate-library /
-  figma-generate-design по задаче). Если Figma MCP не авторизован — сообщи пользователю
-  и предложи либо остановиться на фазе 3, либо перейти на запасной путь
-  `docs/fallback-html.md`.
+- **Режим доступа** определи в фазе 0 и зафиксируй в шапке worklog:
+  `figma-mcp` | `pencil` | `fallback-html`.
+  - `figma-mcp`: перед use_figma загрузи скиллы figma-use (и
+    figma-generate-library / figma-generate-design по задаче).
+  - `pencil` (нет Figma MCP, есть Pencil): работай по `docs/pencil-path.md`;
+    перед сборкой обязательно прочитай гайдлайны Pencil (`get_guidelines`) и
+    раздел «Подключение (диагностика)»; контракт главнее гайдлайнов Pencil.
+  - `fallback-html` (только браузер): работай по `docs/fallback-html.md`.
+  - Figma MCP не авторизован, а путь не выбран — сообщи пользователю и предложи:
+    остановиться на фазе 3, перейти на `pencil` или на `fallback-html`.
 - **Правки в существующем проекте**: классифицируй по tier'ам контракта; перед
   регенерацией Figma-файла выполни `manual-edits-respected` (дифф против данных).
 

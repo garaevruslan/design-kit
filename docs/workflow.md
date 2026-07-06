@@ -29,7 +29,7 @@
 | 1. Reference Study | extraction-css.md и/или extraction-vision.md (по формату референса) | reference-study.md, reference-inventory.md, эталонные скриншоты в project/reference-shots/ |
 | 2. Дизайн-система | tokens-format.md; для specimen — figma-library-rules.md §specimen | tokens.json (валиден по scripts/validate-tokens.mjs), design-system.md, specimen в Figma (обязателен для гейта 1) |
 | 3. Контент | content-doc-format.md | content-doc.md (принятый готовый или сгенерированный из брифа) |
-| 4. Библиотека | figma-library-rules.md; при отсутствии Figma MCP — fallback-html.md | Figma variables + компоненты; план библиотеки в worklog |
+| 4. Библиотека | figma-library-rules.md; без Figma MCP — pencil-path.md (Pencil) или fallback-html.md (HTML) | Variables + компоненты (Figma / .pen / CSS); план библиотеки в worklog |
 | 5. Сборка | assembly-rules.md | Страницы в Figma (desktop + mobile), источник композиции каждой секции в worklog |
 | 6. Верификация | verification.md | verification-report.md, исправленные расхождения |
 | 7. Harvest | library/README.md | Кандидаты-паттерны, после утверждения — файлы в library/ |
@@ -46,7 +46,9 @@
   дополнить inventory; менять tokens.json — только через повторный гейт 1 (Tier 3).
 - **Контент готов заранее.** Фаза 3 сводится к валидации формата контент-дока и
   маппингу секций на inventory; гейт 2 остаётся (человек подтверждает маппинг).
-- **Нет Figma MCP.** Фазы 0–3 без изменений, дальше fallback-html.md. Артефакты те же.
+- **Нет Figma MCP.** Фазы 0–3 без изменений, дальше `docs/pencil-path.md` (есть
+  Pencil) или `docs/fallback-html.md` (только браузер). Артефакты те же; режим —
+  в шапке worklog (`pencil` | `fallback-html`).
 
 ## Worklog-гейт
 
