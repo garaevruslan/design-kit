@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Опора — компоненты (гейт 3)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;1,300&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="components.css">
+<style>
+/* каркас превью (не компонент; только var(--…)) */
+.spec { display: flex; flex-direction: column; gap: var(--space-24); padding: var(--space-48) var(--space-32); border-bottom: var(--border-w) solid var(--color-border); }
+.spec-row { display: flex; flex-wrap: wrap; align-items: flex-start; gap: var(--space-24); }
+.spec-title { color: var(--color-text-muted); }
+.spec-dark { background: var(--color-bg); color: var(--color-text); border-radius: var(--radius-md); padding: var(--space-24); display: flex; flex-wrap: wrap; gap: var(--space-24); }
+.spec .grid-3 { max-width: var(--container-desktop); }
+.spec-w-form { max-width: var(--measure-form); }
+.spec-w-cell { width: var(--announce-w); }
+.spec-w-faq { width: var(--measure-faq); }
+</style>
+</head>
+<body>
+
+<div class="spec">
+  <span class="spec-title text-caption">Типографика (ступени tokens.json; ресайзни до &lt;768 для мобильного режима)</span>
+  <p class="text-display">Display — Найди свой <em>ритм</em></p>
+  <p class="text-h1">H1 — Вернись в <em>тело</em></p>
+  <p class="text-h2">H2 — Три пути. Одно <em>намерение</em></p>
+  <p class="text-h5">H5 — Люди, которым не всё равно</p>
+  <p class="text-body-lg">Body-lg — Йога для тех, кто живёт в большом городе.</p>
+  <p class="text-body">Body — Приходите в любой день, уровень указан у каждого класса.</p>
+  <p class="text-body-bold">Body-bold — 19:30–20:45</p>
+  <p class="text-caption">Caption — Направления</p>
+</div>
+
+<div class="spec">
+  <span class="spec-title text-caption">Button (state: default / hover) + светлый и тёмный режимы</span>
+  <div class="spec-row">
+    <a class="button" href="#">Записаться на пробное</a>
+    <div class="spec-dark" data-theme="dark"><a class="button" href="#">Записаться</a></div>
+  </div>
+</div>
+
+<div class="spec">
+  <span class="spec-title text-caption">Badge (kind: accent / outline)</span>
+  <div class="spec-row">
+    <span class="badge badge--accent">Набор</span>
+    <span class="badge badge--outline">Все уровни</span>
+    <div class="spec-dark" data-theme="dark">
+      <span class="badge badge--accent">Пробное занятие</span>
+      <span class="badge badge--outline">Все уровни</span>
+    </div>
+  </div>
+</div>
+
+<div class="spec">
+  <span class="spec-title text-caption">Input (default / :focus) — тёмный режим формы CTA</span>
+  <div class="spec-dark spec-w-form" data-theme="dark">
+    <input class="input" type="text" placeholder="Имя">
+  </div>
+</div>
+
+<div class="spec">
+  <span class="spec-title text-caption">Nav/Header (мобильный компакт — ресайз &lt;768)</span>
+  <nav class="nav-header">
+    <a class="brand" href="#">Опора</a>
+    <ul class="menu text-caption">
+      <li><a href="#">Направления</a></li>
+      <li><a href="#">Преподаватели</a></li>
+      <li><a href="#">Расписание</a></li>
+    </ul>
+    <a class="button cta" href="#">Пробное занятие</a>
+    <button class="burger" aria-label="Меню">☰</button>
+  </nav>
+</div>
+
+<div class="spec">
+  <span class="spec-title text-caption">Card/Class · Card/Teacher · Card/Pricing (сетка 3)</span>
+  <div class="grid-3">
+    <article class="card-class">
+      <div class="media"><span class="media-slot-label text-caption">[ Фото направления ]</span></div>
+      <div class="body">
+        <h3 class="text-h5">Хатха</h3>
+        <p class="text-body text-muted">Спокойный темп, внимание к отстройке и дыханию.</p>
+      </div>
+    </article>
+    <article class="card-teacher">
+      <div class="media"><span class="media-slot-label text-caption">[ Портрет ]</span></div>
+      <div class="body">
+        <h3 class="text-h5">Анна Ковалёва</h3>
+        <p class="text-body text-muted">Хатха, пренатальная йога · 9 лет практики.</p>
+      </div>
+    </article>
+    <article class="card-pricing">
+      <h3 class="text-h5">Пробное занятие</h3>
+      <p class="text-body text-muted">Первое знакомство со студией и преподавателем.</p>
+      <p class="price text-body-bold">500 ₽</p>
+    </article>
+  </div>
+</div>
+
+<div class="spec">
+  <span class="spec-title text-caption">Card/ScheduleCell · ValueItem · FaqItem</span>
+  <div class="spec-row">
+    <div class="schedule-cell spec-w-cell">
+      <span class="badge badge--accent">Новичкам</span>
+      <span class="text-body-bold">08:00–09:00</span>
+      <span class="text-body-lg">Хатха</span>
+      <span class="badge badge--outline">Анна К.</span>
+    </div>
+    <div class="value-item">
+      <div class="icon"></div>
+      <span class="text-caption">Бережно к телу</span>
+    </div>
+    <div class="spec-w-faq">
+      <details class="faq-item" open>
+        <summary class="text-body-bold">Я никогда не занимался йогой. Мне подойдёт?</summary>
+        <p class="answer text-body text-muted">Да. Приходите на хатху с пометкой „Новичкам“.</p>
+      </details>
+    </div>
+  </div>
+</div>
+
+<div class="spec">
+  <span class="spec-title text-caption">Polaroid (тень soft)</span>
+  <div class="spec-row">
+    <div class="polaroid">
+      <div class="photo"><span class="media-slot-label text-caption">[ Фото ]</span></div>
+      <span class="text-caption text-muted">Практика</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

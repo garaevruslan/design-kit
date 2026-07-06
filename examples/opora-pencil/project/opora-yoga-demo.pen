@@ -1,0 +1,5964 @@
+{
+  "version": "2.14",
+  "children": [
+    {
+      "type": "frame",
+      "id": "a5A5Vp",
+      "x": 920,
+      "y": 0,
+      "name": "00 Specimen",
+      "width": 1200,
+      "fill": "$color-bg",
+      "layout": "vertical",
+      "gap": "$space-48",
+      "padding": "$space-48",
+      "children": [
+        {
+          "type": "text",
+          "id": "IHjGA",
+          "name": "Specimen Title",
+          "fill": "$color-text-muted",
+          "content": "00 SPECIMEN — ПАЛИТРА · ШКАЛА · КНОПКИ",
+          "fontFamily": "$font-body",
+          "fontSize": "$text-caption-size",
+          "fontWeight": "600",
+          "letterSpacing": "$text-caption-ls"
+        },
+        {
+          "type": "frame",
+          "id": "i1CbC",
+          "name": "Palette Row",
+          "width": "fill_container",
+          "gap": "$space-8",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ajcUE",
+              "name": "Swatch brown-900",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "holf5",
+                  "name": "chip",
+                  "fill": "$palette-brown-900",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cqyLH",
+              "name": "Swatch brown-a64",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "NAbei",
+                  "name": "chip",
+                  "fill": "$palette-brown-a64",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VwKfn",
+              "name": "Swatch brown-a32",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "FmLLn",
+                  "name": "chip",
+                  "fill": "$palette-brown-a32",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hjh2O",
+              "name": "Swatch brown-a16",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "gK87A",
+                  "name": "chip",
+                  "fill": "$palette-brown-a16",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XQ4MP",
+              "name": "Swatch brown-a08",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "Uw3WA",
+                  "name": "chip",
+                  "fill": "$palette-brown-a08",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "y7VWKe",
+              "name": "Swatch cream-100",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "Q122iN",
+                  "name": "chip",
+                  "fill": "$palette-cream-100",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lrALu",
+              "name": "Swatch cream-a64",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "yyRfb",
+                  "name": "chip",
+                  "fill": "$palette-cream-a64",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bjkRJ",
+              "name": "Swatch cream-a16",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "XFrhE",
+                  "name": "chip",
+                  "fill": "$palette-cream-a16",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "g0Pli",
+              "name": "Swatch cream-a08",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "vwWhe",
+                  "name": "chip",
+                  "fill": "$palette-cream-a08",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "F9g4UC",
+              "name": "Swatch cream-200",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "doGnm",
+                  "name": "chip",
+                  "fill": "$palette-cream-200",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d9bMW",
+              "name": "Swatch beige-300",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "Xitot",
+                  "name": "chip",
+                  "fill": "$palette-beige-300",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "X9oEN",
+              "name": "Swatch lime-200",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "ECgNv",
+                  "name": "chip",
+                  "fill": "$palette-lime-200",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "A16mIa",
+              "name": "Swatch sage-500",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "t3qYP",
+                  "name": "chip",
+                  "fill": "$palette-sage-500",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cOEGX",
+              "name": "Swatch red-600",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "sgPnr",
+                  "name": "chip",
+                  "fill": "$palette-red-600",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CYf2N",
+              "name": "Swatch mint-100",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "Yj6C3",
+                  "name": "chip",
+                  "fill": "$palette-mint-100",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "b7JHs",
+              "name": "Swatch lavender-100",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "wCcoP",
+                  "name": "chip",
+                  "fill": "$palette-lavender-100",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pfW1C",
+              "name": "Swatch amber-100",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": "$radius-md",
+                  "id": "TOgLS",
+                  "name": "chip",
+                  "fill": "$palette-amber-100",
+                  "width": 56,
+                  "height": 56,
+                  "stroke": "$color-border",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RQ0wj",
+          "name": "Type Scale",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": "$space-16",
+          "children": [
+            {
+              "type": "text",
+              "id": "LZuca",
+              "name": "step display",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Найди свой ритм",
+              "lineHeight": "$text-display-line",
+              "fontFamily": "$font-heading",
+              "fontSize": "$text-display-size",
+              "fontWeight": "300",
+              "letterSpacing": "$text-display-ls"
+            },
+            {
+              "type": "text",
+              "id": "aIPyu",
+              "name": "step h1",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Вернись в тело",
+              "lineHeight": "$text-h1-line",
+              "fontFamily": "$font-heading",
+              "fontSize": "$text-h1-size",
+              "fontWeight": "300",
+              "letterSpacing": "$text-h1-ls"
+            },
+            {
+              "type": "text",
+              "id": "KXrEa",
+              "name": "step h2",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Три пути. Одно намерение",
+              "lineHeight": "$text-h2-line",
+              "fontFamily": "$font-heading",
+              "fontSize": "$text-h2-size",
+              "fontWeight": "300",
+              "letterSpacing": "$text-h2-ls"
+            },
+            {
+              "type": "text",
+              "id": "u4paI",
+              "name": "step h3",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Заголовок третьего уровня",
+              "lineHeight": "$text-h3-line",
+              "fontFamily": "$font-heading",
+              "fontSize": "$text-h3-size",
+              "fontWeight": "300",
+              "letterSpacing": "$text-h3-ls"
+            },
+            {
+              "type": "text",
+              "id": "TYZXz",
+              "name": "step h5",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Люди, которым не всё равно",
+              "lineHeight": "$text-h5-line",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-h5-size",
+              "fontWeight": "300",
+              "letterSpacing": "$text-h5-ls"
+            },
+            {
+              "type": "text",
+              "id": "I7ipPp",
+              "name": "step body-lg",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Йога для тех, кто живёт в большом городе.",
+              "lineHeight": "$text-body-lg-line",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-body-lg-size",
+              "fontWeight": "normal",
+              "letterSpacing": "$text-body-lg-ls"
+            },
+            {
+              "type": "text",
+              "id": "D1D8R",
+              "name": "step body",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Приходите в любой день — уровень указан у каждого класса.",
+              "lineHeight": "$text-body-line",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-body-size",
+              "fontWeight": "normal",
+              "letterSpacing": "$text-body-ls"
+            },
+            {
+              "type": "text",
+              "id": "y6pkZK",
+              "name": "step caption",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "НАПРАВЛЕНИЯ · РАСПИСАНИЕ",
+              "lineHeight": "$text-caption-line",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-caption-size",
+              "fontWeight": "600",
+              "letterSpacing": "$text-caption-ls"
+            },
+            {
+              "type": "text",
+              "id": "ib0JH",
+              "name": "italic accent",
+              "fill": "$color-text",
+              "content": "курсивный акцент — тело",
+              "lineHeight": "$text-h2-line",
+              "fontFamily": "$font-heading",
+              "fontSize": "$text-h2-size",
+              "fontWeight": "300",
+              "letterSpacing": "$text-h2-ls",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "M8zwvx",
+          "name": "Buttons Badges",
+          "gap": "$space-24",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "KJqLK",
+              "name": "Button Sample",
+              "fill": "$color-fill-subtle",
+              "cornerRadius": "$radius-lg",
+              "stroke": "$color-border",
+              "strokeWidth": 1,
+              "padding": [
+                "$space-12",
+                "$space-20"
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Z3vp90",
+                  "name": "label",
+                  "fill": "$color-text",
+                  "content": "ЗАПИСАТЬСЯ НА ПРОБНОЕ",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-caption-size",
+                  "fontWeight": "600",
+                  "letterSpacing": "$text-caption-ls"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "o1kdc8",
+              "name": "Badge Accent Sample",
+              "fill": "$color-accent",
+              "cornerRadius": "$radius-md",
+              "padding": [
+                "$space-4",
+                "$space-8"
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ROHz2",
+                  "name": "label",
+                  "fill": "$color-accent-contrast",
+                  "content": "НАБОР",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-caption-size",
+                  "fontWeight": "600",
+                  "letterSpacing": "$text-caption-ls"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mwAxL",
+              "name": "Badge Outline Sample",
+              "cornerRadius": "$radius-md",
+              "stroke": "$color-border-strong",
+              "strokeWidth": 1,
+              "padding": [
+                "$space-4",
+                "$space-8"
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vUepT",
+                  "name": "label",
+                  "fill": "$color-text",
+                  "content": "ВСЕ УРОВНИ",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-caption-size",
+                  "fontWeight": "600",
+                  "letterSpacing": "$text-caption-ls"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jHEXd",
+          "name": "Dark Sample",
+          "theme": {
+            "mode": "dark"
+          },
+          "width": "fill_container",
+          "fill": "$color-bg",
+          "cornerRadius": "$radius-md",
+          "layout": "vertical",
+          "gap": "$space-16",
+          "padding": "$space-32",
+          "children": [
+            {
+              "type": "text",
+              "id": "Km0VT",
+              "name": "dark h2",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Тёмная секция: инверсия ролей",
+              "lineHeight": "$text-h2-line",
+              "fontFamily": "$font-heading",
+              "fontSize": "$text-h2-size",
+              "fontWeight": "300",
+              "letterSpacing": "$text-h2-ls"
+            },
+            {
+              "type": "text",
+              "id": "XPegQ",
+              "name": "dark body",
+              "fill": "$color-text-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Роли bg/text/border инвертируются осью тем mode.",
+              "lineHeight": "$text-body-line",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-body-size",
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "S9Uaar",
+      "x": 920,
+      "y": 1188,
+      "name": "01 Components Base",
+      "fill": "$color-bg",
+      "gap": "$space-64",
+      "padding": "$space-48",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Nrzjh",
+          "name": "Button",
+          "reusable": true,
+          "fill": "$color-fill-subtle",
+          "cornerRadius": "$radius-lg",
+          "stroke": "$color-border",
+          "strokeWidth": 1,
+          "padding": [
+            "$space-12",
+            "$space-20"
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "KeT2Z",
+              "name": "label",
+              "fill": "$color-text",
+              "content": "КНОПКА",
+              "lineHeight": "$text-caption-line",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-caption-size",
+              "fontWeight": "600",
+              "letterSpacing": "$text-caption-ls"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nVvVZ",
+          "name": "Badge Accent",
+          "reusable": true,
+          "fill": "$color-accent",
+          "cornerRadius": "$radius-md",
+          "padding": [
+            "$space-4",
+            "$space-8"
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "gowxW",
+              "name": "label",
+              "fill": "$color-accent-contrast",
+              "content": "ЛЕЙБЛ",
+              "lineHeight": "$text-caption-line",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-caption-size",
+              "fontWeight": "600",
+              "letterSpacing": "$text-caption-ls"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jcopm",
+          "name": "Badge Outline",
+          "reusable": true,
+          "cornerRadius": "$radius-md",
+          "stroke": "$color-border-strong",
+          "strokeWidth": 1,
+          "padding": [
+            "$space-4",
+            "$space-8"
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "YyHad",
+              "name": "label",
+              "fill": "$color-text",
+              "content": "ЛЕЙБЛ",
+              "lineHeight": "$text-caption-line",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-caption-size",
+              "fontWeight": "600",
+              "letterSpacing": "$text-caption-ls"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "U0ruN",
+          "name": "Input",
+          "reusable": true,
+          "width": 320,
+          "fill": "$color-fill-subtle",
+          "cornerRadius": "$radius-md",
+          "stroke": "$color-border",
+          "strokeWidth": 1,
+          "padding": [
+            "$space-12",
+            "$space-16"
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "fzI3L",
+              "name": "placeholder",
+              "fill": "$color-text-muted",
+              "content": "Плейсхолдер",
+              "lineHeight": "$text-body-line",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-body-size",
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jGVnc",
+          "name": "Value Item",
+          "reusable": true,
+          "width": 220,
+          "layout": "vertical",
+          "gap": "$space-16",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": "$radius-pill",
+              "id": "urPcU",
+              "name": "icon",
+              "fill": "$color-success",
+              "width": 48,
+              "height": 48
+            },
+            {
+              "type": "text",
+              "id": "BdYbx",
+              "name": "vi label",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "ЦЕННОСТЬ",
+              "lineHeight": "$text-caption-line",
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-caption-size",
+              "fontWeight": "600",
+              "letterSpacing": "$text-caption-ls"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Aq1QM",
+          "name": "Faq Item",
+          "reusable": true,
+          "width": 640,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "dD3SV",
+              "name": "divider",
+              "fill": "$color-border",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "RZh4j",
+              "name": "question row",
+              "width": "fill_container",
+              "gap": "$space-16",
+              "padding": [
+                "$space-20",
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TxL2S",
+                  "name": "question",
+                  "fill": "$color-text",
+                  "content": "Вопрос?",
+                  "lineHeight": "$text-body-line",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-body-size",
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "Wxhmd",
+                  "name": "plus",
+                  "fill": "$color-text-muted",
+                  "content": "+",
+                  "lineHeight": "$text-body-line",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-body-size",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "k1ZZ6",
+              "name": "answer row",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                0,
+                0,
+                "$space-20",
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JuXMT",
+                  "name": "answer",
+                  "fill": "$color-text-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Ответ.",
+                  "lineHeight": "$text-body-line",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-body-size",
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pWdnw",
+          "name": "Card Class",
+          "reusable": true,
+          "clip": true,
+          "width": 448,
+          "fill": "$color-surface",
+          "cornerRadius": "$radius-md",
+          "stroke": "$color-border",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "KaB1n",
+              "name": "media",
+              "width": "fill_container",
+              "height": 560,
+              "fill": "$color-surface-alt",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zGkum",
+                  "name": "slot label",
+                  "fill": "$color-text-muted",
+                  "content": "[ ФОТО НАПРАВЛЕНИЯ ]",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-caption-size",
+                  "fontWeight": "600",
+                  "letterSpacing": "$text-caption-ls"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CeAr4",
+              "name": "body",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-12",
+              "padding": "$space-24",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ILQJl",
+                  "name": "title",
+                  "fill": "$color-text",
+                  "content": "Название",
+                  "lineHeight": "$text-h5-line",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-h5-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-h5-ls"
+                },
+                {
+                  "type": "text",
+                  "id": "Ol7LF",
+                  "name": "desc",
+                  "fill": "$color-text-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Описание направления.",
+                  "lineHeight": "$text-body-line",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-body-size",
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "t8MSTy",
+          "name": "Card Teacher",
+          "reusable": true,
+          "clip": true,
+          "width": 448,
+          "fill": "$color-surface",
+          "cornerRadius": "$radius-md",
+          "stroke": "$color-border",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JOCI1",
+              "name": "media",
+              "width": "fill_container",
+              "height": 560,
+              "fill": "$color-surface-alt",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eiowJ",
+                  "name": "slot label",
+                  "fill": "$color-text-muted",
+                  "content": "[ ПОРТРЕТ ]",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-caption-size",
+                  "fontWeight": "600",
+                  "letterSpacing": "$text-caption-ls"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "c9YIW4",
+              "name": "body",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-12",
+              "padding": "$space-24",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "oDzfm",
+                  "name": "name",
+                  "fill": "$color-text",
+                  "content": "Имя Фамилия",
+                  "lineHeight": "$text-h5-line",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-h5-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-h5-ls"
+                },
+                {
+                  "type": "text",
+                  "id": "R2IK7x",
+                  "name": "bio",
+                  "fill": "$color-text-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Направление · стаж. Цитата.",
+                  "lineHeight": "$text-body-line",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-body-size",
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "D2CP6",
+          "name": "Card Pricing",
+          "reusable": true,
+          "width": 448,
+          "fill": "$color-surface",
+          "cornerRadius": "$radius-md",
+          "layout": "vertical",
+          "gap": "$space-12",
+          "padding": "$space-24",
+          "children": [
+            {
+              "type": "text",
+              "id": "l0uKpi",
+              "name": "name",
+              "fill": "$color-text",
+              "content": "Тариф",
+              "lineHeight": "$text-h5-line",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-h5-size",
+              "fontWeight": "300",
+              "letterSpacing": "$text-h5-ls"
+            },
+            {
+              "type": "text",
+              "id": "o5BE56",
+              "name": "desc",
+              "fill": "$color-text-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Описание тарифа.",
+              "lineHeight": "$text-body-line",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-body-size",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "yqhxb",
+              "name": "price row",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                "$space-16",
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ReyTP",
+                  "name": "price",
+                  "fill": "$color-text",
+                  "content": "0 ₽",
+                  "lineHeight": "$text-body-line",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-body-size",
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GQ7ld",
+          "name": "Schedule Cell",
+          "reusable": true,
+          "width": 328,
+          "fill": "$color-surface",
+          "cornerRadius": "$radius-md",
+          "layout": "vertical",
+          "gap": "$space-12",
+          "padding": "$space-24",
+          "children": [
+            {
+              "id": "lTiQj",
+              "type": "ref",
+              "ref": "nVvVZ",
+              "name": "level badge",
+              "descendants": {
+                "gowxW": {
+                  "content": "НОВИЧКАМ"
+                }
+              }
+            },
+            {
+              "type": "text",
+              "id": "kTw0B",
+              "name": "time",
+              "fill": "$color-text",
+              "content": "08:00–09:00",
+              "lineHeight": "$text-body-line",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-body-size",
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "ubISc",
+              "name": "class name",
+              "fill": "$color-text",
+              "content": "Хатха",
+              "lineHeight": "$text-body-lg-line",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-body-lg-size",
+              "fontWeight": "normal"
+            },
+            {
+              "id": "ZD8vD",
+              "type": "ref",
+              "ref": "jcopm",
+              "name": "teacher badge",
+              "descendants": {
+                "YyHad": {
+                  "content": "АННА К."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GeyIk",
+          "name": "Nav Header Desktop",
+          "reusable": true,
+          "fill": "$color-surface",
+          "cornerRadius": "$radius-lg",
+          "gap": "$space-24",
+          "padding": [
+            "$space-12",
+            "$space-24"
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "kXfQZ",
+              "name": "brand",
+              "fill": "$color-text",
+              "content": "Опора",
+              "fontFamily": "$font-heading",
+              "fontSize": 28,
+              "fontWeight": "300"
+            },
+            {
+              "type": "frame",
+              "id": "X7iSYY",
+              "name": "menu",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sBTsu",
+                  "name": "nav item НАПРАВЛЕНИЯ",
+                  "padding": [
+                    "$space-8",
+                    "$space-16"
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mWJhe",
+                      "name": "nav label",
+                      "fill": "$color-text",
+                      "content": "НАПРАВЛЕНИЯ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TPzrJ",
+                  "name": "nav item ПРЕПОДАВАТЕЛИ",
+                  "padding": [
+                    "$space-8",
+                    "$space-16"
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eNf1I",
+                      "name": "nav label",
+                      "fill": "$color-text",
+                      "content": "ПРЕПОДАВАТЕЛИ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D6ZiEu",
+                  "name": "nav item РАСПИСАНИЕ",
+                  "padding": [
+                    "$space-8",
+                    "$space-16"
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uWezU",
+                      "name": "nav label",
+                      "fill": "$color-text",
+                      "content": "РАСПИСАНИЕ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pzKBZ",
+                  "name": "nav item ТАРИФЫ",
+                  "padding": [
+                    "$space-8",
+                    "$space-16"
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QBhde",
+                      "name": "nav label",
+                      "fill": "$color-text",
+                      "content": "ТАРИФЫ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bJNP4",
+                  "name": "nav item ВОПРОСЫ",
+                  "padding": [
+                    "$space-8",
+                    "$space-16"
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Sg1Eg",
+                      "name": "nav label",
+                      "fill": "$color-text",
+                      "content": "ВОПРОСЫ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "xkgwt",
+              "type": "ref",
+              "ref": "Nrzjh",
+              "name": "nav cta",
+              "descendants": {
+                "KeT2Z": {
+                  "content": "ПРОБНОЕ ЗАНЯТИЕ"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wPKh9",
+          "name": "Nav Header Mobile",
+          "reusable": true,
+          "width": 358,
+          "fill": "$color-surface",
+          "cornerRadius": "$radius-lg",
+          "padding": [
+            "$space-12",
+            "$space-24"
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "zXrQk",
+              "name": "brand",
+              "fill": "$color-text",
+              "content": "Опора",
+              "fontFamily": "$font-heading",
+              "fontSize": 28,
+              "fontWeight": "300"
+            },
+            {
+              "type": "text",
+              "id": "lRepE",
+              "name": "burger",
+              "fill": "$color-text",
+              "content": "☰",
+              "fontFamily": "$font-body",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "x2uPLg",
+      "x": 0,
+      "y": 0,
+      "name": "02 Sections",
+      "width": 5600,
+      "height": 16000,
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "FN8fJ",
+          "x": 920,
+          "y": 2120,
+          "name": "Section Hero Desktop",
+          "reusable": true,
+          "clip": true,
+          "width": 1440,
+          "height": 900,
+          "fill": "$color-surface-alt",
+          "layout": "vertical",
+          "padding": [
+            "$space-24",
+            "$space-32",
+            "$space-64",
+            "$space-32"
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "IT5Ut",
+              "name": "nav wrap",
+              "width": "fill_container",
+              "justifyContent": "center",
+              "children": [
+                {
+                  "id": "Hw72b",
+                  "type": "ref",
+                  "ref": "GeyIk",
+                  "name": "nav"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "W1WXN",
+              "name": "hero bottom",
+              "width": "fill_container",
+              "gap": "$space-48",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qvg6F",
+                  "name": "hero copy",
+                  "width": 640,
+                  "layout": "vertical",
+                  "gap": "$space-24",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zs5x9",
+                      "name": "h1 row",
+                      "gap": 14,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MgSZF",
+                          "name": "h1 a",
+                          "fill": "$color-text",
+                          "content": "Вернись в",
+                          "lineHeight": "$text-h1-line",
+                          "fontFamily": "$font-heading",
+                          "fontSize": "$text-h1-size",
+                          "fontWeight": "300",
+                          "letterSpacing": "$text-h1-ls"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Jl0Lr",
+                          "name": "h1 em",
+                          "fill": "$color-text",
+                          "content": "тело",
+                          "lineHeight": "$text-h1-line",
+                          "fontFamily": "$font-heading",
+                          "fontSize": "$text-h1-size",
+                          "fontWeight": "300",
+                          "letterSpacing": "$text-h1-ls",
+                          "fontStyle": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "fFZsF",
+                      "name": "sub",
+                      "fill": "$color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Йога для тех, кто живёт в большом городе и хочет снова слышать себя. Без гонки, без оценок — в своём темпе.",
+                      "lineHeight": "$text-body-lg-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-lg-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "W2EZAD",
+                      "type": "ref",
+                      "ref": "Nrzjh",
+                      "name": "hero cta",
+                      "descendants": {
+                        "KeT2Z": {
+                          "content": "ЗАПИСАТЬСЯ НА ПРОБНОЕ"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eIRHc",
+                  "name": "announce",
+                  "width": 300,
+                  "fill": "$color-surface",
+                  "cornerRadius": "$radius-md",
+                  "layout": "vertical",
+                  "gap": "$space-8",
+                  "padding": "$space-16",
+                  "children": [
+                    {
+                      "id": "g8iWw",
+                      "type": "ref",
+                      "ref": "nVvVZ",
+                      "name": "announce badge",
+                      "descendants": {
+                        "gowxW": {
+                          "content": "НАБОР"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "PwyEP",
+                      "name": "announce text",
+                      "fill": "$color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Набор в утренние группы открыт — старт [уточнить: дата старта]",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HVKwL",
+          "x": 2480,
+          "y": 2120,
+          "name": "Section Hero Mobile",
+          "theme": {
+            "viewport": "mobile"
+          },
+          "reusable": true,
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "$color-surface-alt",
+          "layout": "vertical",
+          "padding": [
+            "$space-16",
+            "$space-16",
+            "$space-48",
+            "$space-16"
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Pdmj6",
+              "name": "nav wrap",
+              "width": "fill_container",
+              "justifyContent": "center",
+              "children": [
+                {
+                  "id": "o6lov5",
+                  "type": "ref",
+                  "ref": "wPKh9",
+                  "name": "nav"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oU2lT",
+              "name": "hero copy",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-24",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rQwBv",
+                  "name": "h1 row",
+                  "gap": 10,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "o6rKL",
+                      "name": "h1 a",
+                      "fill": "$color-text",
+                      "content": "Вернись в",
+                      "lineHeight": "$text-h1-line",
+                      "fontFamily": "$font-heading",
+                      "fontSize": "$text-h1-size",
+                      "fontWeight": "300",
+                      "letterSpacing": "$text-h1-ls"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z1nJNU",
+                      "name": "h1 em",
+                      "fill": "$color-text",
+                      "content": "тело",
+                      "lineHeight": "$text-h1-line",
+                      "fontFamily": "$font-heading",
+                      "fontSize": "$text-h1-size",
+                      "fontWeight": "300",
+                      "letterSpacing": "$text-h1-ls",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "UmXD4",
+                  "name": "sub",
+                  "fill": "$color-text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Йога для тех, кто живёт в большом городе и хочет снова слышать себя. Без гонки, без оценок — в своём темпе.",
+                  "lineHeight": "$text-body-lg-line",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-body-lg-size",
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "w9i0pu",
+                  "type": "ref",
+                  "ref": "Nrzjh",
+                  "name": "hero cta",
+                  "descendants": {
+                    "KeT2Z": {
+                      "content": "ЗАПИСАТЬСЯ НА ПРОБНОЕ"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "C34oG",
+          "x": 920,
+          "y": 3180,
+          "name": "Section Manifesto Desktop",
+          "reusable": true,
+          "width": 1440,
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": "$space-48",
+          "padding": [
+            "$space-160",
+            "$space-32"
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Ga2QD",
+              "name": "credo",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": 640,
+              "content": "Мы верим, что йога — это не спорт и не достижение. Это способ вернуться домой — к дыханию, к опоре, к себе. Наши классы — про внимание и бережность, а не про идеальные формы.",
+              "lineHeight": "$text-h5-line",
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-h5-size",
+              "fontWeight": "300",
+              "letterSpacing": "$text-h5-ls"
+            },
+            {
+              "type": "rectangle",
+              "id": "opGj0",
+              "name": "divider v",
+              "fill": "$color-border-strong",
+              "width": 1,
+              "height": 32
+            },
+            {
+              "type": "frame",
+              "id": "uE06A",
+              "name": "values",
+              "gap": "$space-8",
+              "children": [
+                {
+                  "id": "obI9T",
+                  "type": "ref",
+                  "ref": "jGVnc",
+                  "name": "value БЕРЕЖНО К ТЕЛУ",
+                  "descendants": {
+                    "BdYbx": {
+                      "content": "БЕРЕЖНО К ТЕЛУ"
+                    }
+                  }
+                },
+                {
+                  "id": "VHn9r",
+                  "type": "ref",
+                  "ref": "jGVnc",
+                  "name": "value ВНИМАНИЕ К ДЫХАНИЮ",
+                  "descendants": {
+                    "BdYbx": {
+                      "content": "ВНИМАНИЕ К ДЫХАНИЮ"
+                    }
+                  }
+                },
+                {
+                  "id": "xSsqo",
+                  "type": "ref",
+                  "ref": "jGVnc",
+                  "name": "value СООБЩЕСТВО БЕЗ ОЦЕНОК",
+                  "descendants": {
+                    "BdYbx": {
+                      "content": "СООБЩЕСТВО БЕЗ ОЦЕНОК"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iYVKA",
+          "x": 2480,
+          "y": 3180,
+          "name": "Section Manifesto Mobile",
+          "theme": {
+            "viewport": "mobile"
+          },
+          "reusable": true,
+          "width": 390,
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": "$space-48",
+          "padding": [
+            "$space-96",
+            "$space-16"
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "E7t87a",
+              "name": "credo",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Мы верим, что йога — это не спорт и не достижение. Это способ вернуться домой — к дыханию, к опоре, к себе. Наши классы — про внимание и бережность, а не про идеальные формы.",
+              "lineHeight": "$text-h5-line",
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-h5-size",
+              "fontWeight": "300",
+              "letterSpacing": "$text-h5-ls"
+            },
+            {
+              "type": "rectangle",
+              "id": "lBHFr",
+              "name": "divider v",
+              "fill": "$color-border-strong",
+              "width": 1,
+              "height": 32
+            },
+            {
+              "type": "frame",
+              "id": "ze2lq",
+              "name": "values",
+              "layout": "vertical",
+              "gap": "$space-24",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "y1bvm",
+                  "type": "ref",
+                  "ref": "jGVnc",
+                  "name": "value БЕРЕЖНО К ТЕЛУ",
+                  "descendants": {
+                    "BdYbx": {
+                      "content": "БЕРЕЖНО К ТЕЛУ"
+                    }
+                  }
+                },
+                {
+                  "id": "H3biC",
+                  "type": "ref",
+                  "ref": "jGVnc",
+                  "name": "value ВНИМАНИЕ К ДЫХАНИЮ",
+                  "descendants": {
+                    "BdYbx": {
+                      "content": "ВНИМАНИЕ К ДЫХАНИЮ"
+                    }
+                  }
+                },
+                {
+                  "id": "MLmN9",
+                  "type": "ref",
+                  "ref": "jGVnc",
+                  "name": "value СООБЩЕСТВО БЕЗ ОЦЕНОК",
+                  "descendants": {
+                    "BdYbx": {
+                      "content": "СООБЩЕСТВО БЕЗ ОЦЕНОК"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "X7Eqsb",
+          "x": 920,
+          "y": 4172,
+          "name": "Section Directions Desktop",
+          "reusable": true,
+          "width": 1440,
+          "fill": "$color-surface-alt",
+          "layout": "vertical",
+          "gap": "$space-64",
+          "padding": [
+            "$space-160",
+            "$space-32"
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "CHhiH",
+              "name": "head",
+              "width": "fill_container",
+              "gap": "$space-120",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GggHL",
+                  "name": "head left",
+                  "layout": "vertical",
+                  "gap": "$space-16",
+                  "children": [
+                    {
+                      "id": "JITiW",
+                      "type": "ref",
+                      "ref": "nVvVZ",
+                      "name": "label",
+                      "descendants": {
+                        "gowxW": {
+                          "content": "НАПРАВЛЕНИЯ"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fjFgl",
+                      "name": "h2 row",
+                      "gap": "$space-12",
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VPEu2",
+                          "name": "h2 a",
+                          "fill": "$color-text",
+                          "content": "Три пути. Одно",
+                          "lineHeight": "$text-h2-line",
+                          "fontFamily": "$font-heading",
+                          "fontSize": "$text-h2-size",
+                          "fontWeight": "300",
+                          "letterSpacing": "$text-h2-ls"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eGfvd",
+                          "name": "h2 em",
+                          "fill": "$color-text",
+                          "content": "намерение",
+                          "lineHeight": "$text-h2-line",
+                          "fontFamily": "$font-heading",
+                          "fontSize": "$text-h2-size",
+                          "fontWeight": "300",
+                          "letterSpacing": "$text-h2-ls",
+                          "fontStyle": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oiiRM",
+                  "name": "head right",
+                  "width": 448,
+                  "layout": "vertical",
+                  "gap": "$space-16",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Jqxqp",
+                      "name": "support",
+                      "fill": "$color-text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Каждое занятие — это способ вернуться к себе: к телу, к присутствию, к дыханию.",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W8rSv",
+                      "name": "link",
+                      "fill": "$color-text",
+                      "content": "ВСЁ РАСПИСАНИЕ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d86WHZ",
+              "name": "cards",
+              "width": "fill_container",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "id": "J9YbHN",
+                  "type": "ref",
+                  "ref": "pWdnw",
+                  "name": "card Хатха",
+                  "descendants": {
+                    "ILQJl": {
+                      "content": "Хатха"
+                    },
+                    "Ol7LF": {
+                      "content": "Спокойный темп, внимание к отстройке и дыханию. Лучший вход для новичков."
+                    }
+                  }
+                },
+                {
+                  "id": "r08Cs",
+                  "type": "ref",
+                  "ref": "pWdnw",
+                  "name": "card Виньяса",
+                  "descendants": {
+                    "ILQJl": {
+                      "content": "Виньяса"
+                    },
+                    "Ol7LF": {
+                      "content": "Динамичная практика: движение, связанное дыханием. Для тех, кто хочет силы и потока."
+                    }
+                  }
+                },
+                {
+                  "id": "CgS88",
+                  "type": "ref",
+                  "ref": "pWdnw",
+                  "name": "card Инь и медитация",
+                  "descendants": {
+                    "ILQJl": {
+                      "content": "Инь и медитация"
+                    },
+                    "Ol7LF": {
+                      "content": "Медленные глубокие вытяжения и тишина. Перезагрузка для нервной системы."
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "r3ojMf",
+          "x": 2480,
+          "y": 4172,
+          "name": "Section Directions Mobile",
+          "theme": {
+            "viewport": "mobile"
+          },
+          "reusable": true,
+          "width": 390,
+          "fill": "$color-surface-alt",
+          "layout": "vertical",
+          "gap": "$space-48",
+          "padding": [
+            "$space-96",
+            "$space-16"
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "tnfYd",
+              "name": "head",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "id": "cnrLf",
+                  "type": "ref",
+                  "ref": "nVvVZ",
+                  "name": "label",
+                  "descendants": {
+                    "gowxW": {
+                      "content": "НАПРАВЛЕНИЯ"
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "ezZAq",
+                  "name": "h2 row",
+                  "gap": 9,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LNfwI",
+                      "name": "h2 a",
+                      "fill": "$color-text",
+                      "content": "Три пути. Одно",
+                      "lineHeight": "$text-h2-line",
+                      "fontFamily": "$font-heading",
+                      "fontSize": "$text-h2-size",
+                      "fontWeight": "300",
+                      "letterSpacing": "$text-h2-ls"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mpmXt",
+                      "name": "h2 em",
+                      "fill": "$color-text",
+                      "content": "намерение",
+                      "lineHeight": "$text-h2-line",
+                      "fontFamily": "$font-heading",
+                      "fontSize": "$text-h2-size",
+                      "fontWeight": "300",
+                      "letterSpacing": "$text-h2-ls",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "L0oUu",
+                  "name": "support",
+                  "fill": "$color-text-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Каждое занятие — это способ вернуться к себе: к телу, к присутствию, к дыханию.",
+                  "lineHeight": "$text-body-line",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-body-size",
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "QWFLC",
+                  "name": "link",
+                  "fill": "$color-text",
+                  "content": "ВСЁ РАСПИСАНИЕ",
+                  "lineHeight": "$text-caption-line",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-caption-size",
+                  "fontWeight": "600",
+                  "letterSpacing": "$text-caption-ls"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "y1JPe",
+              "name": "cards",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "id": "fs5Rv",
+                  "type": "ref",
+                  "ref": "pWdnw",
+                  "name": "card Хатха",
+                  "width": "fill_container",
+                  "descendants": {
+                    "KaB1n": {
+                      "height": 448
+                    },
+                    "ILQJl": {
+                      "content": "Хатха"
+                    },
+                    "Ol7LF": {
+                      "content": "Спокойный темп, внимание к отстройке и дыханию. Лучший вход для новичков."
+                    }
+                  }
+                },
+                {
+                  "id": "xYK1K",
+                  "type": "ref",
+                  "ref": "pWdnw",
+                  "name": "card Виньяса",
+                  "width": "fill_container",
+                  "descendants": {
+                    "KaB1n": {
+                      "height": 448
+                    },
+                    "ILQJl": {
+                      "content": "Виньяса"
+                    },
+                    "Ol7LF": {
+                      "content": "Динамичная практика: движение, связанное дыханием. Для тех, кто хочет силы и потока."
+                    }
+                  }
+                },
+                {
+                  "id": "fIhK9",
+                  "type": "ref",
+                  "ref": "pWdnw",
+                  "name": "card Инь и медитация",
+                  "width": "fill_container",
+                  "descendants": {
+                    "KaB1n": {
+                      "height": 448
+                    },
+                    "ILQJl": {
+                      "content": "Инь и медитация"
+                    },
+                    "Ol7LF": {
+                      "content": "Медленные глубокие вытяжения и тишина. Перезагрузка для нервной системы."
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "g657LE",
+          "x": 920,
+          "y": 6600,
+          "name": "Section Teachers Desktop",
+          "reusable": true,
+          "width": 1440,
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": "$space-64",
+          "padding": [
+            "$space-160",
+            "$space-32"
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "xCBAh",
+              "name": "head",
+              "layout": "vertical",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "id": "S27Gd",
+                  "type": "ref",
+                  "ref": "nVvVZ",
+                  "name": "label",
+                  "descendants": {
+                    "gowxW": {
+                      "content": "ПРЕПОДАВАТЕЛИ"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "HNuLS",
+                  "name": "h2",
+                  "fill": "$color-text",
+                  "content": "Люди, которым не всё равно",
+                  "lineHeight": "$text-h2-line",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-h2-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-h2-ls"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wIpd2",
+              "name": "cards",
+              "width": "fill_container",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "id": "VeDps",
+                  "type": "ref",
+                  "ref": "t8MSTy",
+                  "name": "card Анна Ковалёва",
+                  "descendants": {
+                    "oDzfm": {
+                      "content": "Анна Ковалёва"
+                    },
+                    "R2IK7x": {
+                      "content": "Хатха, пренатальная йога · 9 лет практики. „Моя задача — чтобы вы ушли с занятия мягче, чем пришли.“"
+                    }
+                  }
+                },
+                {
+                  "id": "P51IMs",
+                  "type": "ref",
+                  "ref": "t8MSTy",
+                  "name": "card Марат Исмаилов",
+                  "descendants": {
+                    "oDzfm": {
+                      "content": "Марат Исмаилов"
+                    },
+                    "R2IK7x": {
+                      "content": "Виньяса · 7 лет практики. „Сила — это не напряжение, а точность.“"
+                    }
+                  }
+                },
+                {
+                  "id": "xLcVO",
+                  "type": "ref",
+                  "ref": "t8MSTy",
+                  "name": "card Вера Лапина",
+                  "descendants": {
+                    "oDzfm": {
+                      "content": "Вера Лапина"
+                    },
+                    "R2IK7x": {
+                      "content": "Инь, медитация · 12 лет практики. „Тишина — тоже практика.“"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "VwY5z",
+          "x": 2480,
+          "y": 6600,
+          "name": "Section Teachers Mobile",
+          "theme": {
+            "viewport": "mobile"
+          },
+          "reusable": true,
+          "width": 390,
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": "$space-48",
+          "padding": [
+            "$space-96",
+            "$space-16"
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "UVOfp",
+              "name": "head",
+              "layout": "vertical",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "id": "sI0wY",
+                  "type": "ref",
+                  "ref": "nVvVZ",
+                  "name": "label",
+                  "descendants": {
+                    "gowxW": {
+                      "content": "ПРЕПОДАВАТЕЛИ"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "S6Imac",
+                  "name": "h2",
+                  "fill": "$color-text",
+                  "textGrowth": "fixed-width",
+                  "width": 358,
+                  "content": "Люди, которым не всё равно",
+                  "lineHeight": "$text-h2-line",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-h2-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-h2-ls"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MGSzC",
+              "name": "cards",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "id": "g3EzPt",
+                  "type": "ref",
+                  "ref": "t8MSTy",
+                  "name": "card Анна Ковалёва",
+                  "width": "fill_container",
+                  "descendants": {
+                    "JOCI1": {
+                      "height": 448
+                    },
+                    "oDzfm": {
+                      "content": "Анна Ковалёва"
+                    },
+                    "R2IK7x": {
+                      "content": "Хатха, пренатальная йога · 9 лет практики. „Моя задача — чтобы вы ушли с занятия мягче, чем пришли.“"
+                    }
+                  }
+                },
+                {
+                  "id": "kACbS",
+                  "type": "ref",
+                  "ref": "t8MSTy",
+                  "name": "card Марат Исмаилов",
+                  "width": "fill_container",
+                  "descendants": {
+                    "JOCI1": {
+                      "height": 448
+                    },
+                    "oDzfm": {
+                      "content": "Марат Исмаилов"
+                    },
+                    "R2IK7x": {
+                      "content": "Виньяса · 7 лет практики. „Сила — это не напряжение, а точность.“"
+                    }
+                  }
+                },
+                {
+                  "id": "RbY6M",
+                  "type": "ref",
+                  "ref": "t8MSTy",
+                  "name": "card Вера Лапина",
+                  "width": "fill_container",
+                  "descendants": {
+                    "JOCI1": {
+                      "height": 448
+                    },
+                    "oDzfm": {
+                      "content": "Вера Лапина"
+                    },
+                    "R2IK7x": {
+                      "content": "Инь, медитация · 12 лет практики. „Тишина — тоже практика.“"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "J3DIHt",
+          "x": 920,
+          "y": 8956,
+          "name": "Section Schedule Desktop",
+          "reusable": true,
+          "width": 1440,
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": "$space-64",
+          "padding": [
+            "$space-160",
+            "$space-32"
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "tyZEV",
+              "name": "head",
+              "width": "fill_container",
+              "gap": "$space-120",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zmTx1",
+                  "name": "head left",
+                  "layout": "vertical",
+                  "gap": "$space-16",
+                  "children": [
+                    {
+                      "id": "g5aXT",
+                      "type": "ref",
+                      "ref": "nVvVZ",
+                      "name": "label",
+                      "descendants": {
+                        "gowxW": {
+                          "content": "РАСПИСАНИЕ"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "nBiib",
+                      "name": "h2",
+                      "fill": "$color-text",
+                      "content": "Неделя в «Опоре»",
+                      "lineHeight": "$text-h2-line",
+                      "fontFamily": "$font-heading",
+                      "fontSize": "$text-h2-size",
+                      "fontWeight": "300",
+                      "letterSpacing": "$text-h2-ls"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "U92PN",
+                  "name": "head right",
+                  "width": 448,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lBs8L",
+                      "name": "support",
+                      "fill": "$color-text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Приходите в любой день — уровень указан у каждого класса. Последнее обновление: [уточнить: дата обновления расписания].",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NmQGn",
+              "name": "week grid",
+              "width": "fill_container",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ym3rQ",
+                  "name": "day ПОНЕДЕЛЬНИК",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-16",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KXFF4",
+                      "name": "day name",
+                      "fill": "$color-text-muted",
+                      "content": "ПОНЕДЕЛЬНИК",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    },
+                    {
+                      "id": "uBnO0",
+                      "type": "ref",
+                      "ref": "GQ7ld",
+                      "name": "cell ПОНЕДЕЛЬНИК 08:00–09:00",
+                      "width": "fill_container",
+                      "descendants": {
+                        "lTiQj/gowxW": {
+                          "content": "НОВИЧКАМ"
+                        },
+                        "kTw0B": {
+                          "content": "08:00–09:00"
+                        },
+                        "ubISc": {
+                          "content": "Хатха"
+                        },
+                        "ZD8vD/YyHad": {
+                          "content": "АННА К."
+                        }
+                      }
+                    },
+                    {
+                      "id": "nkkn2",
+                      "type": "ref",
+                      "ref": "GQ7ld",
+                      "name": "cell ПОНЕДЕЛЬНИК 19:30–20:45",
+                      "width": "fill_container",
+                      "descendants": {
+                        "lTiQj": {
+                          "id": "q5tSJ",
+                          "type": "ref",
+                          "ref": "jcopm",
+                          "name": "level badge",
+                          "descendants": {
+                            "YyHad": {
+                              "content": "ВСЕ УРОВНИ"
+                            }
+                          }
+                        },
+                        "kTw0B": {
+                          "content": "19:30–20:45"
+                        },
+                        "ubISc": {
+                          "content": "Виньяса"
+                        },
+                        "ZD8vD/YyHad": {
+                          "content": "МАРАТ И."
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C7Us5",
+                  "name": "day СРЕДА",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-16",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n8ejQ6",
+                      "name": "day name",
+                      "fill": "$color-text-muted",
+                      "content": "СРЕДА",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    },
+                    {
+                      "id": "B1WNe",
+                      "type": "ref",
+                      "ref": "GQ7ld",
+                      "name": "cell СРЕДА 08:00–09:00",
+                      "width": "fill_container",
+                      "descendants": {
+                        "lTiQj/gowxW": {
+                          "content": "НОВИЧКАМ"
+                        },
+                        "kTw0B": {
+                          "content": "08:00–09:00"
+                        },
+                        "ubISc": {
+                          "content": "Хатха"
+                        },
+                        "ZD8vD/YyHad": {
+                          "content": "АННА К."
+                        }
+                      }
+                    },
+                    {
+                      "id": "hh2J5",
+                      "type": "ref",
+                      "ref": "GQ7ld",
+                      "name": "cell СРЕДА 20:00–21:15",
+                      "width": "fill_container",
+                      "descendants": {
+                        "lTiQj": {
+                          "id": "VJXBS",
+                          "type": "ref",
+                          "ref": "jcopm",
+                          "name": "level badge",
+                          "descendants": {
+                            "YyHad": {
+                              "content": "ВСЕ УРОВНИ"
+                            }
+                          }
+                        },
+                        "kTw0B": {
+                          "content": "20:00–21:15"
+                        },
+                        "ubISc": {
+                          "content": "Инь и медитация"
+                        },
+                        "ZD8vD/YyHad": {
+                          "content": "ВЕРА Л."
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UTUei",
+                  "name": "day ПЯТНИЦА",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-16",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qcVot",
+                      "name": "day name",
+                      "fill": "$color-text-muted",
+                      "content": "ПЯТНИЦА",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    },
+                    {
+                      "id": "c2bAV0",
+                      "type": "ref",
+                      "ref": "GQ7ld",
+                      "name": "cell ПЯТНИЦА 19:30–20:45",
+                      "width": "fill_container",
+                      "descendants": {
+                        "lTiQj": {
+                          "id": "Qwm6S",
+                          "type": "ref",
+                          "ref": "jcopm",
+                          "name": "level badge",
+                          "descendants": {
+                            "YyHad": {
+                              "content": "ВСЕ УРОВНИ"
+                            }
+                          }
+                        },
+                        "kTw0B": {
+                          "content": "19:30–20:45"
+                        },
+                        "ubISc": {
+                          "content": "Виньяса"
+                        },
+                        "ZD8vD/YyHad": {
+                          "content": "МАРАТ И."
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "M3VTOA",
+                  "name": "day СУББОТА",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-16",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RKkGy",
+                      "name": "day name",
+                      "fill": "$color-text-muted",
+                      "content": "СУББОТА",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    },
+                    {
+                      "id": "WerLe",
+                      "type": "ref",
+                      "ref": "GQ7ld",
+                      "name": "cell СУББОТА 10:00–11:15",
+                      "width": "fill_container",
+                      "descendants": {
+                        "lTiQj/gowxW": {
+                          "content": "НОВИЧКАМ"
+                        },
+                        "kTw0B": {
+                          "content": "10:00–11:15"
+                        },
+                        "ubISc": {
+                          "content": "Хатха"
+                        },
+                        "ZD8vD/YyHad": {
+                          "content": "АННА К."
+                        }
+                      }
+                    },
+                    {
+                      "id": "XkAVW",
+                      "type": "ref",
+                      "ref": "GQ7ld",
+                      "name": "cell СУББОТА 12:00–13:15",
+                      "width": "fill_container",
+                      "descendants": {
+                        "lTiQj": {
+                          "id": "XaSGM",
+                          "type": "ref",
+                          "ref": "jcopm",
+                          "name": "level badge",
+                          "descendants": {
+                            "YyHad": {
+                              "content": "ВСЕ УРОВНИ"
+                            }
+                          }
+                        },
+                        "kTw0B": {
+                          "content": "12:00–13:15"
+                        },
+                        "ubISc": {
+                          "content": "Инь и медитация"
+                        },
+                        "ZD8vD/YyHad": {
+                          "content": "ВЕРА Л."
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "X9n2V",
+          "x": 2480,
+          "y": 8956,
+          "name": "Section Schedule Mobile",
+          "theme": {
+            "viewport": "mobile"
+          },
+          "reusable": true,
+          "width": 390,
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": "$space-48",
+          "padding": [
+            "$space-96",
+            "$space-16"
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Jutek",
+              "name": "head",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "id": "T0pvEC",
+                  "type": "ref",
+                  "ref": "nVvVZ",
+                  "name": "label",
+                  "descendants": {
+                    "gowxW": {
+                      "content": "РАСПИСАНИЕ"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "gqSVc",
+                  "name": "h2",
+                  "fill": "$color-text",
+                  "content": "Неделя в «Опоре»",
+                  "lineHeight": "$text-h2-line",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-h2-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-h2-ls"
+                },
+                {
+                  "type": "text",
+                  "id": "adSi1",
+                  "name": "support",
+                  "fill": "$color-text-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Приходите в любой день — уровень указан у каждого класса. Последнее обновление: [уточнить: дата обновления расписания].",
+                  "lineHeight": "$text-body-line",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-body-size",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Nj2fR",
+              "name": "week list",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-32",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BhAHi",
+                  "name": "day ПОНЕДЕЛЬНИК",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-16",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iXv7y",
+                      "name": "day name",
+                      "fill": "$color-text-muted",
+                      "content": "ПОНЕДЕЛЬНИК",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    },
+                    {
+                      "id": "LKeeQ",
+                      "type": "ref",
+                      "ref": "GQ7ld",
+                      "name": "cell ПОНЕДЕЛЬНИК 08:00–09:00",
+                      "width": "fill_container",
+                      "descendants": {
+                        "lTiQj/gowxW": {
+                          "content": "НОВИЧКАМ"
+                        },
+                        "kTw0B": {
+                          "content": "08:00–09:00"
+                        },
+                        "ubISc": {
+                          "content": "Хатха"
+                        },
+                        "ZD8vD/YyHad": {
+                          "content": "АННА К."
+                        }
+                      }
+                    },
+                    {
+                      "id": "mDJSv",
+                      "type": "ref",
+                      "ref": "GQ7ld",
+                      "name": "cell ПОНЕДЕЛЬНИК 19:30–20:45",
+                      "width": "fill_container",
+                      "descendants": {
+                        "lTiQj": {
+                          "id": "BRKJ3",
+                          "type": "ref",
+                          "ref": "jcopm",
+                          "name": "level badge",
+                          "descendants": {
+                            "YyHad": {
+                              "content": "ВСЕ УРОВНИ"
+                            }
+                          }
+                        },
+                        "kTw0B": {
+                          "content": "19:30–20:45"
+                        },
+                        "ubISc": {
+                          "content": "Виньяса"
+                        },
+                        "ZD8vD/YyHad": {
+                          "content": "МАРАТ И."
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cY8En",
+                  "name": "day СРЕДА",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-16",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "L4Ucj",
+                      "name": "day name",
+                      "fill": "$color-text-muted",
+                      "content": "СРЕДА",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    },
+                    {
+                      "id": "UHH6I",
+                      "type": "ref",
+                      "ref": "GQ7ld",
+                      "name": "cell СРЕДА 08:00–09:00",
+                      "width": "fill_container",
+                      "descendants": {
+                        "lTiQj/gowxW": {
+                          "content": "НОВИЧКАМ"
+                        },
+                        "kTw0B": {
+                          "content": "08:00–09:00"
+                        },
+                        "ubISc": {
+                          "content": "Хатха"
+                        },
+                        "ZD8vD/YyHad": {
+                          "content": "АННА К."
+                        }
+                      }
+                    },
+                    {
+                      "id": "F7TWSA",
+                      "type": "ref",
+                      "ref": "GQ7ld",
+                      "name": "cell СРЕДА 20:00–21:15",
+                      "width": "fill_container",
+                      "descendants": {
+                        "lTiQj": {
+                          "id": "E3C3E",
+                          "type": "ref",
+                          "ref": "jcopm",
+                          "name": "level badge",
+                          "descendants": {
+                            "YyHad": {
+                              "content": "ВСЕ УРОВНИ"
+                            }
+                          }
+                        },
+                        "kTw0B": {
+                          "content": "20:00–21:15"
+                        },
+                        "ubISc": {
+                          "content": "Инь и медитация"
+                        },
+                        "ZD8vD/YyHad": {
+                          "content": "ВЕРА Л."
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "S6nyS",
+                  "name": "day ПЯТНИЦА",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-16",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "D06yt",
+                      "name": "day name",
+                      "fill": "$color-text-muted",
+                      "content": "ПЯТНИЦА",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    },
+                    {
+                      "id": "Z0SBlq",
+                      "type": "ref",
+                      "ref": "GQ7ld",
+                      "name": "cell ПЯТНИЦА 19:30–20:45",
+                      "width": "fill_container",
+                      "descendants": {
+                        "lTiQj": {
+                          "id": "Lo7Yy",
+                          "type": "ref",
+                          "ref": "jcopm",
+                          "name": "level badge",
+                          "descendants": {
+                            "YyHad": {
+                              "content": "ВСЕ УРОВНИ"
+                            }
+                          }
+                        },
+                        "kTw0B": {
+                          "content": "19:30–20:45"
+                        },
+                        "ubISc": {
+                          "content": "Виньяса"
+                        },
+                        "ZD8vD/YyHad": {
+                          "content": "МАРАТ И."
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZOksM",
+                  "name": "day СУББОТА",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-16",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Hn8rz",
+                      "name": "day name",
+                      "fill": "$color-text-muted",
+                      "content": "СУББОТА",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    },
+                    {
+                      "id": "v8OM7R",
+                      "type": "ref",
+                      "ref": "GQ7ld",
+                      "name": "cell СУББОТА 10:00–11:15",
+                      "width": "fill_container",
+                      "descendants": {
+                        "lTiQj/gowxW": {
+                          "content": "НОВИЧКАМ"
+                        },
+                        "kTw0B": {
+                          "content": "10:00–11:15"
+                        },
+                        "ubISc": {
+                          "content": "Хатха"
+                        },
+                        "ZD8vD/YyHad": {
+                          "content": "АННА К."
+                        }
+                      }
+                    },
+                    {
+                      "id": "ofvnd",
+                      "type": "ref",
+                      "ref": "GQ7ld",
+                      "name": "cell СУББОТА 12:00–13:15",
+                      "width": "fill_container",
+                      "descendants": {
+                        "lTiQj": {
+                          "id": "uHTXd",
+                          "type": "ref",
+                          "ref": "jcopm",
+                          "name": "level badge",
+                          "descendants": {
+                            "YyHad": {
+                              "content": "ВСЕ УРОВНИ"
+                            }
+                          }
+                        },
+                        "kTw0B": {
+                          "content": "12:00–13:15"
+                        },
+                        "ubISc": {
+                          "content": "Инь и медитация"
+                        },
+                        "ZD8vD/YyHad": {
+                          "content": "ВЕРА Л."
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Kok9B",
+          "x": 920,
+          "y": 11092,
+          "name": "Section Pricing Desktop",
+          "reusable": true,
+          "width": 1440,
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": "$space-64",
+          "padding": [
+            "$space-160",
+            "$space-32"
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "r5hHX",
+              "name": "head",
+              "layout": "vertical",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "id": "NB9bY",
+                  "type": "ref",
+                  "ref": "nVvVZ",
+                  "name": "label",
+                  "descendants": {
+                    "gowxW": {
+                      "content": "ТАРИФЫ"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "OQo8r",
+                  "name": "h2",
+                  "fill": "$color-text",
+                  "content": "Честно и без мелкого шрифта",
+                  "lineHeight": "$text-h2-line",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-h2-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-h2-ls"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wiNta",
+              "name": "cards",
+              "width": "fill_container",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "id": "d4And",
+                  "type": "ref",
+                  "ref": "D2CP6",
+                  "name": "card Пробное занятие",
+                  "descendants": {
+                    "l0uKpi": {
+                      "content": "Пробное занятие"
+                    },
+                    "o5BE56": {
+                      "content": "Первое знакомство со студией и преподавателем."
+                    },
+                    "ReyTP": {
+                      "content": "500 ₽"
+                    }
+                  }
+                },
+                {
+                  "id": "qSrkz",
+                  "type": "ref",
+                  "ref": "D2CP6",
+                  "name": "card Разовое занятие",
+                  "descendants": {
+                    "l0uKpi": {
+                      "content": "Разовое занятие"
+                    },
+                    "o5BE56": {
+                      "content": "Приходите, когда получается — без обязательств."
+                    },
+                    "ReyTP": {
+                      "content": "1 200 ₽"
+                    }
+                  }
+                },
+                {
+                  "id": "eHtcy",
+                  "type": "ref",
+                  "ref": "D2CP6",
+                  "name": "card Абонемент на 8 занятий",
+                  "descendants": {
+                    "l0uKpi": {
+                      "content": "Абонемент на 8 занятий"
+                    },
+                    "o5BE56": {
+                      "content": "Оптимальный ритм: дважды в неделю. Действует 6 недель."
+                    },
+                    "ReyTP": {
+                      "content": "7 600 ₽"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JG8tv",
+              "name": "cta row",
+              "width": "fill_container",
+              "justifyContent": "center",
+              "children": [
+                {
+                  "id": "emvy0",
+                  "type": "ref",
+                  "ref": "Nrzjh",
+                  "name": "cta",
+                  "descendants": {
+                    "KeT2Z": {
+                      "content": "НАЧАТЬ С ПРОБНОГО"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AgmqR",
+          "x": 2480,
+          "y": 11092,
+          "name": "Section Pricing Mobile",
+          "theme": {
+            "viewport": "mobile"
+          },
+          "reusable": true,
+          "width": 390,
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": "$space-48",
+          "padding": [
+            "$space-96",
+            "$space-16"
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ri9Z2",
+              "name": "head",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "id": "COXpI",
+                  "type": "ref",
+                  "ref": "nVvVZ",
+                  "name": "label",
+                  "descendants": {
+                    "gowxW": {
+                      "content": "ТАРИФЫ"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "PGuDP",
+                  "name": "h2",
+                  "fill": "$color-text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Честно и без мелкого шрифта",
+                  "lineHeight": "$text-h2-line",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-h2-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-h2-ls"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fyA22",
+              "name": "cards",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "id": "T14OtA",
+                  "type": "ref",
+                  "ref": "D2CP6",
+                  "name": "card Пробное занятие",
+                  "width": "fill_container",
+                  "descendants": {
+                    "l0uKpi": {
+                      "content": "Пробное занятие"
+                    },
+                    "o5BE56": {
+                      "content": "Первое знакомство со студией и преподавателем."
+                    },
+                    "ReyTP": {
+                      "content": "500 ₽"
+                    }
+                  }
+                },
+                {
+                  "id": "sOZNd",
+                  "type": "ref",
+                  "ref": "D2CP6",
+                  "name": "card Разовое занятие",
+                  "width": "fill_container",
+                  "descendants": {
+                    "l0uKpi": {
+                      "content": "Разовое занятие"
+                    },
+                    "o5BE56": {
+                      "content": "Приходите, когда получается — без обязательств."
+                    },
+                    "ReyTP": {
+                      "content": "1 200 ₽"
+                    }
+                  }
+                },
+                {
+                  "id": "Z2lUG",
+                  "type": "ref",
+                  "ref": "D2CP6",
+                  "name": "card Абонемент на 8 занятий",
+                  "width": "fill_container",
+                  "descendants": {
+                    "l0uKpi": {
+                      "content": "Абонемент на 8 занятий"
+                    },
+                    "o5BE56": {
+                      "content": "Оптимальный ритм: дважды в неделю. Действует 6 недель."
+                    },
+                    "ReyTP": {
+                      "content": "7 600 ₽"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oyZ0c",
+              "name": "cta row",
+              "width": "fill_container",
+              "justifyContent": "center",
+              "children": [
+                {
+                  "id": "UVNCj",
+                  "type": "ref",
+                  "ref": "Nrzjh",
+                  "name": "cta",
+                  "descendants": {
+                    "KeT2Z": {
+                      "content": "НАЧАТЬ С ПРОБНОГО"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HibpE",
+          "x": 920,
+          "y": 12324,
+          "name": "Section FAQ Desktop",
+          "reusable": true,
+          "width": 1440,
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": "$space-64",
+          "padding": [
+            "$space-160",
+            "$space-32"
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "d5T2kZ",
+              "name": "head",
+              "layout": "vertical",
+              "gap": "$space-16",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "DRUCW",
+                  "type": "ref",
+                  "ref": "nVvVZ",
+                  "name": "label",
+                  "descendants": {
+                    "gowxW": {
+                      "content": "ВОПРОСЫ"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "iz3R0",
+                  "name": "h2",
+                  "fill": "$color-text",
+                  "content": "Перед первым занятием",
+                  "lineHeight": "$text-h2-line",
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-h2-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-h2-ls"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "u874dZ",
+              "name": "faq list",
+              "width": 640,
+              "layout": "vertical",
+              "children": [
+                {
+                  "id": "OlGxH",
+                  "type": "ref",
+                  "ref": "Aq1QM",
+                  "name": "faq Я никогда не заним",
+                  "width": "fill_container",
+                  "descendants": {
+                    "TxL2S": {
+                      "content": "Я никогда не занимался йогой. Мне подойдёт?"
+                    },
+                    "JuXMT": {
+                      "content": "Да. Приходите на хатху с пометкой „Новичкам“ — преподаватель предложит вариант каждой позы под ваш уровень."
+                    }
+                  }
+                },
+                {
+                  "id": "alCDO",
+                  "type": "ref",
+                  "ref": "Aq1QM",
+                  "name": "faq Что взять с собой?",
+                  "width": "fill_container",
+                  "descendants": {
+                    "TxL2S": {
+                      "content": "Что взять с собой?"
+                    },
+                    "JuXMT": {
+                      "content": "Удобную одежду, в которой не жмёт. Коврики, ремни и пледы есть в студии — бесплатно."
+                    }
+                  }
+                },
+                {
+                  "id": "B5FmF",
+                  "type": "ref",
+                  "ref": "Aq1QM",
+                  "name": "faq Я не гибкий. Это п",
+                  "width": "fill_container",
+                  "descendants": {
+                    "TxL2S": {
+                      "content": "Я не гибкий. Это проблема?"
+                    },
+                    "JuXMT": {
+                      "content": "Нет. Гибкость — следствие практики, а не условие для неё."
+                    }
+                  }
+                },
+                {
+                  "id": "FxlZX",
+                  "type": "ref",
+                  "ref": "Aq1QM",
+                  "name": "faq Можно прийти одном",
+                  "width": "fill_container",
+                  "descendants": {
+                    "TxL2S": {
+                      "content": "Можно прийти одному?"
+                    },
+                    "JuXMT": {
+                      "content": "Большинство приходит поодиночке. Через пару занятий лица становятся знакомыми."
+                    }
+                  }
+                },
+                {
+                  "id": "u8KGh",
+                  "type": "ref",
+                  "ref": "Aq1QM",
+                  "name": "faq Как отменить запис",
+                  "width": "fill_container",
+                  "descendants": {
+                    "TxL2S": {
+                      "content": "Как отменить запись?"
+                    },
+                    "JuXMT": {
+                      "content": "В сообщении студии за [уточнить: срок отмены] до занятия — без списания с абонемента."
+                    }
+                  }
+                },
+                {
+                  "type": "rectangle",
+                  "id": "hqGYs",
+                  "name": "bottom divider",
+                  "fill": "$color-border",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QUUFs",
+          "x": 2480,
+          "y": 12324,
+          "name": "Section FAQ Mobile",
+          "theme": {
+            "viewport": "mobile"
+          },
+          "reusable": true,
+          "width": 390,
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": "$space-48",
+          "padding": [
+            "$space-96",
+            "$space-16"
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "W2aQx",
+              "name": "head",
+              "layout": "vertical",
+              "gap": "$space-16",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "BuUAM",
+                  "type": "ref",
+                  "ref": "nVvVZ",
+                  "name": "label",
+                  "descendants": {
+                    "gowxW": {
+                      "content": "ВОПРОСЫ"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "AQET2",
+                  "name": "h2",
+                  "fill": "$color-text",
+                  "textGrowth": "fixed-width",
+                  "width": 358,
+                  "content": "Перед первым занятием",
+                  "lineHeight": "$text-h2-line",
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-h2-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-h2-ls"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "btCJT",
+              "name": "faq list",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "id": "AmNxX",
+                  "type": "ref",
+                  "ref": "Aq1QM",
+                  "name": "faq Я никогда не заним",
+                  "width": "fill_container",
+                  "descendants": {
+                    "TxL2S": {
+                      "content": "Я никогда не занимался йогой. Мне подойдёт?",
+                      "textGrowth": "fixed-width",
+                      "width": 280
+                    },
+                    "JuXMT": {
+                      "content": "Да. Приходите на хатху с пометкой „Новичкам“ — преподаватель предложит вариант каждой позы под ваш уровень."
+                    }
+                  }
+                },
+                {
+                  "id": "W1FFz",
+                  "type": "ref",
+                  "ref": "Aq1QM",
+                  "name": "faq Что взять с собой?",
+                  "width": "fill_container",
+                  "descendants": {
+                    "TxL2S": {
+                      "content": "Что взять с собой?",
+                      "textGrowth": "fixed-width",
+                      "width": 280
+                    },
+                    "JuXMT": {
+                      "content": "Удобную одежду, в которой не жмёт. Коврики, ремни и пледы есть в студии — бесплатно."
+                    }
+                  }
+                },
+                {
+                  "id": "S9nzu",
+                  "type": "ref",
+                  "ref": "Aq1QM",
+                  "name": "faq Я не гибкий. Это п",
+                  "width": "fill_container",
+                  "descendants": {
+                    "TxL2S": {
+                      "content": "Я не гибкий. Это проблема?",
+                      "textGrowth": "fixed-width",
+                      "width": 280
+                    },
+                    "JuXMT": {
+                      "content": "Нет. Гибкость — следствие практики, а не условие для неё."
+                    }
+                  }
+                },
+                {
+                  "id": "sRjfn",
+                  "type": "ref",
+                  "ref": "Aq1QM",
+                  "name": "faq Можно прийти одном",
+                  "width": "fill_container",
+                  "descendants": {
+                    "TxL2S": {
+                      "content": "Можно прийти одному?",
+                      "textGrowth": "fixed-width",
+                      "width": 280
+                    },
+                    "JuXMT": {
+                      "content": "Большинство приходит поодиночке. Через пару занятий лица становятся знакомыми."
+                    }
+                  }
+                },
+                {
+                  "id": "BiEMg",
+                  "type": "ref",
+                  "ref": "Aq1QM",
+                  "name": "faq Как отменить запис",
+                  "width": "fill_container",
+                  "descendants": {
+                    "TxL2S": {
+                      "content": "Как отменить запись?",
+                      "textGrowth": "fixed-width",
+                      "width": 280
+                    },
+                    "JuXMT": {
+                      "content": "В сообщении студии за [уточнить: срок отмены] до занятия — без списания с абонемента."
+                    }
+                  }
+                },
+                {
+                  "type": "rectangle",
+                  "id": "kxuOr",
+                  "name": "bottom divider",
+                  "fill": "$color-border",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "weAEQ",
+          "x": 920,
+          "y": 13598,
+          "name": "Section CTA Desktop",
+          "theme": {
+            "mode": "dark"
+          },
+          "reusable": true,
+          "width": 1440,
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": "$space-24",
+          "padding": [
+            "$space-160",
+            "$space-32"
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "C6whIf",
+              "type": "ref",
+              "ref": "nVvVZ",
+              "name": "label",
+              "descendants": {
+                "gowxW": {
+                  "content": "ПРОБНОЕ ЗАНЯТИЕ"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "ZMP4S",
+              "name": "h1 row",
+              "gap": 14,
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BWqso",
+                  "name": "h1 a",
+                  "fill": "$color-text",
+                  "content": "Начни с",
+                  "lineHeight": "$text-h1-line",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-h1-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-h1-ls"
+                },
+                {
+                  "type": "text",
+                  "id": "Y7zlkJ",
+                  "name": "h1 em",
+                  "fill": "$color-text",
+                  "content": "одного",
+                  "lineHeight": "$text-h1-line",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-h1-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-h1-ls",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "AM658",
+                  "name": "h1 b",
+                  "fill": "$color-text",
+                  "content": "занятия",
+                  "lineHeight": "$text-h1-line",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-h1-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-h1-ls"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "vePmv",
+              "name": "lead",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": 560,
+              "content": "500 ₽, 60 минут, преподаватель рядом. Если не понравится — просто не вернётесь. Но обычно возвращаются.",
+              "lineHeight": "$text-body-lg-line",
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-body-lg-size",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "o5Yts",
+              "name": "form",
+              "width": 480,
+              "layout": "vertical",
+              "gap": "$space-16",
+              "padding": [
+                "$space-24",
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "id": "I2k4tR",
+                  "type": "ref",
+                  "ref": "U0ruN",
+                  "name": "input name",
+                  "width": "fill_container",
+                  "descendants": {
+                    "fzI3L": {
+                      "content": "Имя"
+                    }
+                  }
+                },
+                {
+                  "id": "R7Ro2",
+                  "type": "ref",
+                  "ref": "U0ruN",
+                  "name": "input phone",
+                  "width": "fill_container",
+                  "descendants": {
+                    "fzI3L": {
+                      "content": "Телефон"
+                    }
+                  }
+                },
+                {
+                  "id": "rHXBs",
+                  "type": "ref",
+                  "ref": "Nrzjh",
+                  "name": "submit",
+                  "width": "fill_container",
+                  "justifyContent": "center",
+                  "descendants": {
+                    "KeT2Z": {
+                      "content": "ЗАПИСАТЬСЯ"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "HS35w",
+              "name": "note",
+              "fill": "$color-text-muted",
+              "content": "Перезвоним в течение дня и подберём группу.",
+              "lineHeight": "$text-body-line",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-body-size",
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "g9GG9",
+          "x": 2480,
+          "y": 13598,
+          "name": "Section CTA Mobile",
+          "theme": {
+            "mode": "dark",
+            "viewport": "mobile"
+          },
+          "reusable": true,
+          "width": 390,
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": "$space-24",
+          "padding": [
+            "$space-96",
+            "$space-16"
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "u5Wpr",
+              "type": "ref",
+              "ref": "nVvVZ",
+              "name": "label",
+              "descendants": {
+                "gowxW": {
+                  "content": "ПРОБНОЕ ЗАНЯТИЕ"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "t1W5Z",
+              "name": "h1 col",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "g4Qs0H",
+                  "name": "h1 r1",
+                  "gap": 10,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SvriD",
+                      "name": "h1 a",
+                      "fill": "$color-text",
+                      "content": "Начни с",
+                      "lineHeight": "$text-h1-line",
+                      "fontFamily": "$font-heading",
+                      "fontSize": "$text-h1-size",
+                      "fontWeight": "300",
+                      "letterSpacing": "$text-h1-ls"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QPtGN",
+                      "name": "h1 em",
+                      "fill": "$color-text",
+                      "content": "одного",
+                      "lineHeight": "$text-h1-line",
+                      "fontFamily": "$font-heading",
+                      "fontSize": "$text-h1-size",
+                      "fontWeight": "300",
+                      "letterSpacing": "$text-h1-ls",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "kT0WR",
+                  "name": "h1 b",
+                  "fill": "$color-text",
+                  "content": "занятия",
+                  "lineHeight": "$text-h1-line",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-h1-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-h1-ls"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "ejefl",
+              "name": "lead",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "500 ₽, 60 минут, преподаватель рядом. Если не понравится — просто не вернётесь. Но обычно возвращаются.",
+              "lineHeight": "$text-body-lg-line",
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-body-lg-size",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "l0FPZC",
+              "name": "form",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-16",
+              "padding": [
+                "$space-24",
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "id": "KyklJ",
+                  "type": "ref",
+                  "ref": "U0ruN",
+                  "name": "input name",
+                  "width": "fill_container",
+                  "descendants": {
+                    "fzI3L": {
+                      "content": "Имя"
+                    }
+                  }
+                },
+                {
+                  "id": "Hhx2H",
+                  "type": "ref",
+                  "ref": "U0ruN",
+                  "name": "input phone",
+                  "width": "fill_container",
+                  "descendants": {
+                    "fzI3L": {
+                      "content": "Телефон"
+                    }
+                  }
+                },
+                {
+                  "id": "VpDXn",
+                  "type": "ref",
+                  "ref": "Nrzjh",
+                  "name": "submit",
+                  "width": "fill_container",
+                  "justifyContent": "center",
+                  "descendants": {
+                    "KeT2Z": {
+                      "content": "ЗАПИСАТЬСЯ"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "TzAZh",
+              "name": "note",
+              "fill": "$color-text-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Перезвоним в течение дня и подберём группу.",
+              "lineHeight": "$text-body-line",
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": "$text-body-size",
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "y6zrjT",
+          "x": 920,
+          "y": 14554,
+          "name": "Section Footer Desktop",
+          "theme": {
+            "mode": "dark"
+          },
+          "reusable": true,
+          "width": 1440,
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": "$space-80",
+          "padding": [
+            "$space-120",
+            "$space-32",
+            "$space-48",
+            "$space-32"
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "q5wwbP",
+              "name": "slogan row",
+              "gap": "$space-20",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "r7MZ1",
+                  "name": "slogan a",
+                  "fill": "$color-text",
+                  "content": "Найди свой",
+                  "lineHeight": "$text-display-line",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-display-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-display-ls"
+                },
+                {
+                  "type": "text",
+                  "id": "b8foV",
+                  "name": "slogan em",
+                  "fill": "$color-text",
+                  "content": "ритм",
+                  "lineHeight": "$text-display-line",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-display-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-display-ls",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "e0hjR3",
+              "name": "cols",
+              "width": "fill_container",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "c7Hku",
+                  "name": "col contacts",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-12",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TNo5M",
+                      "name": "col title",
+                      "fill": "$color-text-muted",
+                      "content": "КОНТАКТЫ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HHM1s",
+                      "name": "contact",
+                      "fill": "$color-text",
+                      "content": "Москва, [уточнить: адрес студии]",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "S9ZdHB",
+                      "name": "contact",
+                      "fill": "$color-text",
+                      "content": "[уточнить: телефон]",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "D3jTZ",
+                      "name": "contact",
+                      "fill": "$color-text",
+                      "content": "hello@opora.studio [уточнить: почта]",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nbOh4",
+                  "name": "col nav",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-12",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "x3NNg",
+                      "name": "col title",
+                      "fill": "$color-text-muted",
+                      "content": "НАВИГАЦИЯ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UhJ7g",
+                      "name": "nav link",
+                      "fill": "$color-text",
+                      "content": "Направления",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UOfS0",
+                      "name": "nav link",
+                      "fill": "$color-text",
+                      "content": "Преподаватели",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FdV5X",
+                      "name": "nav link",
+                      "fill": "$color-text",
+                      "content": "Расписание",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QfuUs",
+                      "name": "nav link",
+                      "fill": "$color-text",
+                      "content": "Тарифы",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pS8c8",
+                      "name": "nav link",
+                      "fill": "$color-text",
+                      "content": "Вопросы",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Nqtx1",
+                  "name": "col social",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-12",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qq9Ms",
+                      "name": "col title",
+                      "fill": "$color-text-muted",
+                      "content": "СОЦСЕТИ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qUJHI",
+                      "name": "social link",
+                      "fill": "$color-text",
+                      "content": "Telegram",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xbYTh",
+                      "name": "social link",
+                      "fill": "$color-text",
+                      "content": "Instagram*",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "akOMy",
+                      "name": "social link",
+                      "fill": "$color-text",
+                      "content": "YouTube",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PrDsv",
+                      "name": "meta note",
+                      "fill": "$color-text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "* Meta признана экстремистской организацией в РФ",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XvoXV",
+              "name": "polaroids",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gikZY",
+                  "name": "polaroid ПРАКТИКА",
+                  "fill": "$color-surface",
+                  "cornerRadius": "$radius-md",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "$palette-brown-a08",
+                    "offset": {
+                      "x": -24,
+                      "y": 4
+                    },
+                    "blur": 40
+                  },
+                  "layout": "vertical",
+                  "gap": "$space-8",
+                  "padding": "$space-16",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sASkl",
+                      "name": "photo",
+                      "width": 160,
+                      "height": 160,
+                      "fill": "$palette-beige-300",
+                      "cornerRadius": "$radius-md",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pFDCp",
+                          "name": "slot label",
+                          "fill": "$palette-brown-a64",
+                          "content": "[ ФОТО ]",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$text-caption-size",
+                          "fontWeight": "600",
+                          "letterSpacing": "$text-caption-ls"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "BwJZ2",
+                      "name": "caption",
+                      "fill": "$palette-brown-a64",
+                      "content": "ПРАКТИКА",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "t4Jqbq",
+                  "name": "polaroid СТУДИЯ",
+                  "fill": "$color-surface",
+                  "cornerRadius": "$radius-md",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "$palette-brown-a08",
+                    "offset": {
+                      "x": -24,
+                      "y": 4
+                    },
+                    "blur": 40
+                  },
+                  "layout": "vertical",
+                  "gap": "$space-8",
+                  "padding": "$space-16",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "L6kGW",
+                      "name": "photo",
+                      "width": 160,
+                      "height": 160,
+                      "fill": "$palette-beige-300",
+                      "cornerRadius": "$radius-md",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "H5pU4e",
+                          "name": "slot label",
+                          "fill": "$palette-brown-a64",
+                          "content": "[ ФОТО ]",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$text-caption-size",
+                          "fontWeight": "600",
+                          "letterSpacing": "$text-caption-ls"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ogary",
+                      "name": "caption",
+                      "fill": "$palette-brown-a64",
+                      "content": "СТУДИЯ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UO0X3",
+                  "name": "polaroid ЧАЙ ПОСЛЕ ПРАКТИКИ",
+                  "fill": "$color-surface",
+                  "cornerRadius": "$radius-md",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "$palette-brown-a08",
+                    "offset": {
+                      "x": -24,
+                      "y": 4
+                    },
+                    "blur": 40
+                  },
+                  "layout": "vertical",
+                  "gap": "$space-8",
+                  "padding": "$space-16",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "t4FQA",
+                      "name": "photo",
+                      "width": 160,
+                      "height": 160,
+                      "fill": "$palette-beige-300",
+                      "cornerRadius": "$radius-md",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NWqC5",
+                          "name": "slot label",
+                          "fill": "$palette-brown-a64",
+                          "content": "[ ФОТО ]",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$text-caption-size",
+                          "fontWeight": "600",
+                          "letterSpacing": "$text-caption-ls"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Le5ad",
+                      "name": "caption",
+                      "fill": "$palette-brown-a64",
+                      "content": "ЧАЙ ПОСЛЕ ПРАКТИКИ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ANzxu",
+              "name": "legal",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-24",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "MRqmn",
+                  "name": "legal divider",
+                  "fill": "$color-border",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "WoWuW",
+                  "name": "legal row",
+                  "gap": "$space-16",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "amIR1",
+                      "name": "legal item",
+                      "fill": "$color-text-muted",
+                      "content": "© 2026 Студия йоги «Опора»",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jwIGM",
+                      "name": "legal item",
+                      "fill": "$color-text-muted",
+                      "content": "Оферта",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NHGUu",
+                      "name": "legal item",
+                      "fill": "$color-text-muted",
+                      "content": "Политика данных",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fZbl0",
+          "x": 2480,
+          "y": 14554,
+          "name": "Section Footer Mobile",
+          "theme": {
+            "mode": "dark",
+            "viewport": "mobile"
+          },
+          "reusable": true,
+          "width": 390,
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": "$space-48",
+          "padding": [
+            "$space-96",
+            "$space-16",
+            "$space-32",
+            "$space-16"
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "v6yf1i",
+              "name": "slogan col",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-4",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yusUr",
+                  "name": "slogan a",
+                  "fill": "$color-text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Найди свой",
+                  "lineHeight": "$text-display-line",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-display-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-display-ls"
+                },
+                {
+                  "type": "text",
+                  "id": "j0z9b6",
+                  "name": "slogan em",
+                  "fill": "$color-text",
+                  "content": "ритм",
+                  "lineHeight": "$text-display-line",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$text-display-size",
+                  "fontWeight": "300",
+                  "letterSpacing": "$text-display-ls",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rR8kV",
+              "name": "cols",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-32",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "K27yEy",
+                  "name": "col contacts",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-12",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zDZSm",
+                      "name": "col title",
+                      "fill": "$color-text-muted",
+                      "content": "КОНТАКТЫ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U4rwrP",
+                      "name": "contact",
+                      "fill": "$color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Москва, [уточнить: адрес студии]",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DkPNI",
+                      "name": "contact",
+                      "fill": "$color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "[уточнить: телефон]",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vD493",
+                      "name": "contact",
+                      "fill": "$color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "hello@opora.studio [уточнить: почта]",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "n3oB0r",
+                  "name": "col nav",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-12",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Tsk8l",
+                      "name": "col title",
+                      "fill": "$color-text-muted",
+                      "content": "НАВИГАЦИЯ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TRftp",
+                      "name": "nav link",
+                      "fill": "$color-text",
+                      "content": "Направления",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "alkEt",
+                      "name": "nav link",
+                      "fill": "$color-text",
+                      "content": "Преподаватели",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EHPjj",
+                      "name": "nav link",
+                      "fill": "$color-text",
+                      "content": "Расписание",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "c5l7v",
+                      "name": "nav link",
+                      "fill": "$color-text",
+                      "content": "Тарифы",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HP0iv",
+                      "name": "nav link",
+                      "fill": "$color-text",
+                      "content": "Вопросы",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "l96Cs",
+                  "name": "col social",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-12",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "s88hM",
+                      "name": "col title",
+                      "fill": "$color-text-muted",
+                      "content": "СОЦСЕТИ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FQYhF",
+                      "name": "social link",
+                      "fill": "$color-text",
+                      "content": "Telegram",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oThin",
+                      "name": "social link",
+                      "fill": "$color-text",
+                      "content": "Instagram*",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "X2NG9",
+                      "name": "social link",
+                      "fill": "$color-text",
+                      "content": "YouTube",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "v457U4",
+                      "name": "meta note",
+                      "fill": "$color-text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "* Meta признана экстремистской организацией в РФ",
+                      "lineHeight": "$text-body-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-body-size",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LY6OW",
+              "name": "polaroids",
+              "clip": true,
+              "width": "fill_container",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MZCnL",
+                  "name": "polaroid ПРАКТИКА",
+                  "fill": "$color-surface",
+                  "cornerRadius": "$radius-md",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "$palette-brown-a08",
+                    "offset": {
+                      "x": -24,
+                      "y": 4
+                    },
+                    "blur": 40
+                  },
+                  "layout": "vertical",
+                  "gap": "$space-8",
+                  "padding": "$space-16",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hXlnM",
+                      "name": "photo",
+                      "width": 120,
+                      "height": 120,
+                      "fill": "$palette-beige-300",
+                      "cornerRadius": "$radius-md",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "iEPfj",
+                          "name": "slot label",
+                          "fill": "$palette-brown-a64",
+                          "content": "[ ФОТО ]",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$text-caption-size",
+                          "fontWeight": "600",
+                          "letterSpacing": "$text-caption-ls"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "vnWYd",
+                      "name": "caption",
+                      "fill": "$palette-brown-a64",
+                      "content": "ПРАКТИКА",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qsvXu",
+                  "name": "polaroid СТУДИЯ",
+                  "fill": "$color-surface",
+                  "cornerRadius": "$radius-md",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "$palette-brown-a08",
+                    "offset": {
+                      "x": -24,
+                      "y": 4
+                    },
+                    "blur": 40
+                  },
+                  "layout": "vertical",
+                  "gap": "$space-8",
+                  "padding": "$space-16",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oxFiu",
+                      "name": "photo",
+                      "width": 120,
+                      "height": 120,
+                      "fill": "$palette-beige-300",
+                      "cornerRadius": "$radius-md",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FJefT",
+                          "name": "slot label",
+                          "fill": "$palette-brown-a64",
+                          "content": "[ ФОТО ]",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$text-caption-size",
+                          "fontWeight": "600",
+                          "letterSpacing": "$text-caption-ls"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "TkoBd",
+                      "name": "caption",
+                      "fill": "$palette-brown-a64",
+                      "content": "СТУДИЯ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f4tBP",
+                  "name": "polaroid ЧАЙ ПОСЛЕ ПРАКТИКИ",
+                  "fill": "$color-surface",
+                  "cornerRadius": "$radius-md",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "$palette-brown-a08",
+                    "offset": {
+                      "x": -24,
+                      "y": 4
+                    },
+                    "blur": 40
+                  },
+                  "layout": "vertical",
+                  "gap": "$space-8",
+                  "padding": "$space-16",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "UVerw",
+                      "name": "photo",
+                      "width": 120,
+                      "height": 120,
+                      "fill": "$palette-beige-300",
+                      "cornerRadius": "$radius-md",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Jbhhh",
+                          "name": "slot label",
+                          "fill": "$palette-brown-a64",
+                          "content": "[ ФОТО ]",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$text-caption-size",
+                          "fontWeight": "600",
+                          "letterSpacing": "$text-caption-ls"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "x6ISc",
+                      "name": "caption",
+                      "fill": "$palette-brown-a64",
+                      "content": "ЧАЙ ПОСЛЕ ПРАКТИКИ",
+                      "lineHeight": "$text-caption-line",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$text-caption-size",
+                      "fontWeight": "600",
+                      "letterSpacing": "$text-caption-ls"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "z783Q",
+              "name": "legal",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$space-16",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "FBbSh",
+                  "name": "legal divider",
+                  "fill": "$color-border",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "XsCJJ",
+                  "name": "legal item",
+                  "fill": "$color-text-muted",
+                  "content": "© 2026 Студия йоги «Опора»",
+                  "lineHeight": "$text-body-line",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-body-size",
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Ylzwm",
+                  "name": "legal item",
+                  "fill": "$color-text-muted",
+                  "content": "Оферта · Политика данных",
+                  "lineHeight": "$text-body-line",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$text-body-size",
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Bc0Wk",
+          "x": 4148,
+          "y": 2120,
+          "name": "home/desktop-1440",
+          "clip": true,
+          "width": 1440,
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "Dlgtm",
+              "type": "ref",
+              "ref": "FN8fJ",
+              "name": "sect hero"
+            },
+            {
+              "id": "MTIVC",
+              "type": "ref",
+              "ref": "C34oG",
+              "name": "sect manifesto"
+            },
+            {
+              "id": "WqvXr",
+              "type": "ref",
+              "ref": "X7Eqsb",
+              "name": "sect directions"
+            },
+            {
+              "id": "DZLUr",
+              "type": "ref",
+              "ref": "g657LE",
+              "name": "sect teachers"
+            },
+            {
+              "id": "Tz2Vw",
+              "type": "ref",
+              "ref": "J3DIHt",
+              "name": "sect schedule"
+            },
+            {
+              "id": "zXEcA",
+              "type": "ref",
+              "ref": "Kok9B",
+              "name": "sect pricing"
+            },
+            {
+              "id": "bmdSx",
+              "type": "ref",
+              "ref": "HibpE",
+              "name": "sect faq"
+            },
+            {
+              "id": "ZXzfO",
+              "type": "ref",
+              "ref": "weAEQ",
+              "name": "sect cta"
+            },
+            {
+              "id": "C9jLu",
+              "type": "ref",
+              "ref": "y6zrjT",
+              "name": "sect footer"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QDOnG",
+          "x": 5708,
+          "y": 2120,
+          "name": "home/mobile-390",
+          "theme": {
+            "viewport": "mobile"
+          },
+          "clip": true,
+          "width": 390,
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "VCu2x",
+              "type": "ref",
+              "ref": "HVKwL",
+              "name": "sect hero"
+            },
+            {
+              "id": "jyv0f",
+              "type": "ref",
+              "ref": "iYVKA",
+              "name": "sect manifesto"
+            },
+            {
+              "id": "thDNv",
+              "type": "ref",
+              "ref": "r3ojMf",
+              "name": "sect directions"
+            },
+            {
+              "id": "XoPZK",
+              "type": "ref",
+              "ref": "VwY5z",
+              "name": "sect teachers"
+            },
+            {
+              "id": "MpKvA",
+              "type": "ref",
+              "ref": "X9n2V",
+              "name": "sect schedule"
+            },
+            {
+              "id": "d5behR",
+              "type": "ref",
+              "ref": "AgmqR",
+              "name": "sect pricing"
+            },
+            {
+              "id": "bbURd",
+              "type": "ref",
+              "ref": "QUUFs",
+              "name": "sect faq"
+            },
+            {
+              "id": "Z2Vdb",
+              "type": "ref",
+              "ref": "g9GG9",
+              "name": "sect cta"
+            },
+            {
+              "id": "bn9WM",
+              "type": "ref",
+              "ref": "fZbl0",
+              "name": "sect footer"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "mode": [
+      "light",
+      "dark"
+    ],
+    "viewport": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "variables": {
+    "palette-brown-900": {
+      "type": "color",
+      "value": "#594A3C"
+    },
+    "palette-brown-a64": {
+      "type": "color",
+      "value": "#594A3CA3"
+    },
+    "palette-brown-a32": {
+      "type": "color",
+      "value": "#594A3C52"
+    },
+    "palette-brown-a16": {
+      "type": "color",
+      "value": "#594A3C29"
+    },
+    "palette-brown-a08": {
+      "type": "color",
+      "value": "#594A3C14"
+    },
+    "palette-cream-100": {
+      "type": "color",
+      "value": "#F3EEE9"
+    },
+    "palette-cream-a64": {
+      "type": "color",
+      "value": "#F3EEE9A3"
+    },
+    "palette-cream-a16": {
+      "type": "color",
+      "value": "#F3EEE929"
+    },
+    "palette-cream-a08": {
+      "type": "color",
+      "value": "#F3EEE914"
+    },
+    "palette-cream-200": {
+      "type": "color",
+      "value": "#E9E1D9"
+    },
+    "palette-beige-300": {
+      "type": "color",
+      "value": "#D7CBBF"
+    },
+    "palette-lime-200": {
+      "type": "color",
+      "value": "#E6F6BA"
+    },
+    "palette-sage-500": {
+      "type": "color",
+      "value": "#8A9570"
+    },
+    "palette-red-600": {
+      "type": "color",
+      "value": "#C9372D"
+    },
+    "palette-mint-100": {
+      "type": "color",
+      "value": "#F1F8E8"
+    },
+    "palette-lavender-100": {
+      "type": "color",
+      "value": "#EDE9F6"
+    },
+    "palette-amber-100": {
+      "type": "color",
+      "value": "#FFF2D9"
+    },
+    "color-bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-cream-100",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-brown-900",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-surface": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-cream-200",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-cream-200",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-surface-alt": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-beige-300",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-cream-100",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-text": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-brown-900",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-cream-100",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-text-muted": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-brown-a64",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-cream-a64",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-lime-200",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-lime-200",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-accent-contrast": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-brown-900",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-brown-900",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-brown-a16",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-cream-a16",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-border-strong": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-brown-a32",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-cream-a16",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-fill-subtle": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-brown-a08",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-cream-a08",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-success": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-sage-500",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-sage-500",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-warning": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-red-600",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-red-600",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-danger": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-red-600",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-red-600",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-tag-beginner": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-mint-100",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-mint-100",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-tag-intermediate": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-lavender-100",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-lavender-100",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "color-tag-advanced": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$palette-amber-100",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "$palette-amber-100",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "font-heading": {
+      "type": "string",
+      "value": "Cormorant"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Manrope"
+    },
+    "text-caption-size": {
+      "type": "number",
+      "value": [
+        {
+          "value": 12,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 10,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-caption-line": {
+      "type": "number",
+      "value": [
+        {
+          "value": 1.33,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 1.2,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-caption-ls": {
+      "type": "number",
+      "value": [
+        {
+          "value": 1,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 0.75,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-body-size": {
+      "type": "number",
+      "value": [
+        {
+          "value": 16,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 14,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-body-line": {
+      "type": "number",
+      "value": [
+        {
+          "value": 1.5,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 1.43,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-body-ls": {
+      "type": "number",
+      "value": [
+        {
+          "value": 0,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 0,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-body-lg-size": {
+      "type": "number",
+      "value": [
+        {
+          "value": 20,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 16,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-body-lg-line": {
+      "type": "number",
+      "value": [
+        {
+          "value": 1.4,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 1.5,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-body-lg-ls": {
+      "type": "number",
+      "value": [
+        {
+          "value": 0,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 0,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-h5-size": {
+      "type": "number",
+      "value": [
+        {
+          "value": 28,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 20,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-h5-line": {
+      "type": "number",
+      "value": [
+        {
+          "value": 1.14,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 1.2,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-h5-ls": {
+      "type": "number",
+      "value": [
+        {
+          "value": -1.01,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": -0.25,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-h3-size": {
+      "type": "number",
+      "value": [
+        {
+          "value": 40,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 32,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-h3-line": {
+      "type": "number",
+      "value": [
+        {
+          "value": 1.2,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 1.125,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-h3-ls": {
+      "type": "number",
+      "value": [
+        {
+          "value": -1,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": -0.51,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-h2-size": {
+      "type": "number",
+      "value": [
+        {
+          "value": 48,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 36,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-h2-line": {
+      "type": "number",
+      "value": [
+        {
+          "value": 1,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 1.11,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-h2-ls": {
+      "type": "number",
+      "value": [
+        {
+          "value": -2.02,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": -1.51,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-h1-size": {
+      "type": "number",
+      "value": [
+        {
+          "value": 64,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 48,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-h1-line": {
+      "type": "number",
+      "value": [
+        {
+          "value": 0.875,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 0.917,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-h1-ls": {
+      "type": "number",
+      "value": [
+        {
+          "value": -1.98,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": -2.02,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-display-size": {
+      "type": "number",
+      "value": [
+        {
+          "value": 96,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 64,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-display-line": {
+      "type": "number",
+      "value": [
+        {
+          "value": 0.833,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": 0.813,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "text-display-ls": {
+      "type": "number",
+      "value": [
+        {
+          "value": -2.98,
+          "theme": {
+            "viewport": "desktop"
+          }
+        },
+        {
+          "value": -3.01,
+          "theme": {
+            "viewport": "mobile"
+          }
+        }
+      ]
+    },
+    "space-4": {
+      "type": "number",
+      "value": 4
+    },
+    "space-8": {
+      "type": "number",
+      "value": 8
+    },
+    "space-12": {
+      "type": "number",
+      "value": 12
+    },
+    "space-16": {
+      "type": "number",
+      "value": 16
+    },
+    "space-20": {
+      "type": "number",
+      "value": 20
+    },
+    "space-24": {
+      "type": "number",
+      "value": 24
+    },
+    "space-32": {
+      "type": "number",
+      "value": 32
+    },
+    "space-48": {
+      "type": "number",
+      "value": 48
+    },
+    "space-64": {
+      "type": "number",
+      "value": 64
+    },
+    "space-80": {
+      "type": "number",
+      "value": 80
+    },
+    "space-96": {
+      "type": "number",
+      "value": 96
+    },
+    "space-120": {
+      "type": "number",
+      "value": 120
+    },
+    "space-160": {
+      "type": "number",
+      "value": 160
+    },
+    "radius-none": {
+      "type": "number",
+      "value": 0
+    },
+    "radius-md": {
+      "type": "number",
+      "value": 8
+    },
+    "radius-md-lg": {
+      "type": "number",
+      "value": 16
+    },
+    "radius-lg": {
+      "type": "number",
+      "value": 24
+    },
+    "radius-pill": {
+      "type": "number",
+      "value": 999
+    }
+  },
+  "fileToken": "ee14a499-46ba-4804-aa7e-9794c00cf59b"
+}

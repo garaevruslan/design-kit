@@ -1,0 +1,172 @@
+/* tokens.css — GENERATED from project/tokens.json by tokens-to-css.mjs.
+ * DO NOT EDIT BY HAND — правь tokens.json и перегенерируй (no-detached-values).
+ * Проект: yoga-school-demo — landing; дата генерации: источник tokens.json от 2026-07-05. */
+
+:root {
+  /* color.palette — примитивы */
+  --palette-brown-900: #594A3C;
+  --palette-brown-a64: #594A3CA3;
+  --palette-brown-a32: #594A3C52;
+  --palette-brown-a16: #594A3C29;
+  --palette-brown-a08: #594A3C14;
+  --palette-cream-100: #F3EEE9;
+  --palette-cream-a64: #F3EEE9A3;
+  --palette-cream-a16: #F3EEE929;
+  --palette-cream-a08: #F3EEE914;
+  --palette-cream-200: #E9E1D9;
+  --palette-beige-300: #D7CBBF;
+  --palette-lime-200: #E6F6BA;
+  --palette-sage-500: #8A9570;
+  --palette-red-600: #C9372D;
+  --palette-mint-100: #F1F8E8;
+  --palette-lavender-100: #EDE9F6;
+  --palette-amber-100: #FFF2D9;
+
+  /* color.modes.light — семантические роли (режим light = дефолт) */
+  --color-bg: var(--palette-cream-100);
+  --color-surface: var(--palette-cream-200);
+  --color-surface-alt: var(--palette-beige-300);
+  --color-text: var(--palette-brown-900);
+  --color-text-muted: var(--palette-brown-a64);
+  --color-accent: var(--palette-lime-200);
+  --color-accent-contrast: var(--palette-brown-900);
+  --color-border: var(--palette-brown-a16);
+  --color-border-strong: var(--palette-brown-a32);
+  --color-fill-subtle: var(--palette-brown-a08);
+  --color-success: var(--palette-sage-500);
+  --color-warning: var(--palette-red-600);
+  --color-danger: var(--palette-red-600);
+  --color-tag-beginner: var(--palette-mint-100);
+  --color-tag-intermediate: var(--palette-lavender-100);
+  --color-tag-advanced: var(--palette-amber-100);
+
+  /* typography.fontFamilies */
+  --font-heading: "Cormorant", Georgia, serif;
+  --font-heading-italic: "Cormorant", Georgia, serif;
+  --font-body: "Manrope", system-ui, sans-serif;
+
+  /* typography.typeScale — desktop (режим desktop коллекции typography) */
+  --text-caption-size: 12px;
+  --text-caption-line: 1.33;
+  --text-caption-weight: 600;
+  --text-caption-ls: 0.083em;
+  --text-body-size: 16px;
+  --text-body-line: 1.5;
+  --text-body-weight: 400;
+  --text-body-ls: 0em;
+  --text-body-lg-size: 20px;
+  --text-body-lg-line: 1.4;
+  --text-body-lg-weight: 400;
+  --text-body-lg-ls: 0em;
+  --text-h5-size: 28px;
+  --text-h5-line: 1.14;
+  --text-h5-weight: 300;
+  --text-h5-ls: -0.036em;
+  --text-h3-size: 40px;
+  --text-h3-line: 1.2;
+  --text-h3-weight: 300;
+  --text-h3-ls: -0.025em;
+  --text-h2-size: 48px;
+  --text-h2-line: 1;
+  --text-h2-weight: 300;
+  --text-h2-ls: -0.042em;
+  --text-h1-size: 64px;
+  --text-h1-line: 0.875;
+  --text-h1-weight: 300;
+  --text-h1-ls: -0.031em;
+  --text-display-size: 96px;
+  --text-display-line: 0.833;
+  --text-display-weight: 300;
+  --text-display-ls: -0.031em;
+
+  /* spacing.scale (base 4) */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --space-80: 80px;
+  --space-96: 96px;
+  --space-120: 120px;
+  --space-160: 160px;
+
+  /* radius */
+  --radius-none: 0px;
+  --radius-md: 8px;
+  --radius-md-lg: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  /* shadows */
+  --shadow-soft: -24px 4px 40px rgba(89, 74, 60, 0.08);
+
+  /* grid */
+  --container-desktop: 1376px;
+  --gutter-desktop: 16px;
+  --container-mobile: 358px;
+  --gutter-mobile: 16px;
+}
+
+/* color.modes.dark — секционная инверсия (тёмные секции: cta, footer) */
+[data-theme="dark"] {
+  --color-bg: var(--palette-brown-900);
+  --color-surface: var(--palette-cream-200);
+  --color-surface-alt: var(--palette-cream-100);
+  --color-text: var(--palette-cream-100);
+  --color-text-muted: var(--palette-cream-a64);
+  --color-accent: var(--palette-lime-200);
+  --color-accent-contrast: var(--palette-brown-900);
+  --color-border: var(--palette-cream-a16);
+  --color-border-strong: var(--palette-cream-a16);
+  --color-fill-subtle: var(--palette-cream-a08);
+  --color-success: var(--palette-sage-500);
+  --color-warning: var(--palette-red-600);
+  --color-danger: var(--palette-red-600);
+  --color-tag-beginner: var(--palette-mint-100);
+  --color-tag-intermediate: var(--palette-lavender-100);
+  --color-tag-advanced: var(--palette-amber-100);
+}
+
+/* typography.typeScale — mobile (режим mobile коллекции typography).
+   767 — порог смены значений референса (~768, эмпирика reference-study §6);
+   брейкпоинты макетов из tokens.json: desktop 1440 / mobile 390. */
+@media (max-width: 767px) {
+  :root {
+    --text-caption-size: 10px;
+    --text-caption-line: 1.2;
+    --text-caption-weight: 600;
+    --text-caption-ls: 0.075em;
+    --text-body-size: 14px;
+    --text-body-line: 1.43;
+    --text-body-weight: 400;
+    --text-body-ls: 0em;
+    --text-body-lg-size: 16px;
+    --text-body-lg-line: 1.5;
+    --text-body-lg-weight: 400;
+    --text-body-lg-ls: 0em;
+    --text-h5-size: 20px;
+    --text-h5-line: 1.2;
+    --text-h5-weight: 300;
+    --text-h5-ls: -0.0125em;
+    --text-h3-size: 32px;
+    --text-h3-line: 1.125;
+    --text-h3-weight: 300;
+    --text-h3-ls: -0.016em;
+    --text-h2-size: 36px;
+    --text-h2-line: 1.11;
+    --text-h2-weight: 300;
+    --text-h2-ls: -0.042em;
+    --text-h1-size: 48px;
+    --text-h1-line: 0.917;
+    --text-h1-weight: 300;
+    --text-h1-ls: -0.042em;
+    --text-display-size: 64px;
+    --text-display-line: 0.813;
+    --text-display-weight: 300;
+    --text-display-ls: -0.047em;
+  }
+}

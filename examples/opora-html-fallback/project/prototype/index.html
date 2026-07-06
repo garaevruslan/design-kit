@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Опора — школа йоги</title>
+<!-- Шрифты системы (font-license-check пройден в исходном прогоне): Cormorant Light (+Italic), Manrope -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;1,300&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="components.css">
+</head>
+<body>
+
+<!-- ================= hero (reference: home-hero) + header-nav (nav-header) ================= -->
+<section class="section-hero" id="top">
+  <div class="nav-wrap">
+    <nav class="nav-header">
+      <a class="brand" href="#top">Опора</a>
+      <ul class="menu text-caption">
+        <li><a href="#directions">Направления</a></li>
+        <li><a href="#teachers">Преподаватели</a></li>
+        <li><a href="#schedule">Расписание</a></li>
+        <li><a href="#pricing">Тарифы</a></li>
+        <li><a href="#faq">Вопросы</a></li>
+      </ul>
+      <a class="button cta" href="#cta">Пробное занятие</a>
+      <button class="burger" aria-label="Меню">☰</button>
+    </nav>
+  </div>
+  <div class="container hero-bottom">
+    <div class="hero-copy">
+      <h1 class="text-h1">Вернись в <em>тело</em></h1>
+      <p class="text-body-lg">Йога для тех, кто живёт в большом городе и хочет снова слышать себя. Без гонки, без оценок — в своём темпе.</p>
+      <a class="button" href="#cta">Записаться на пробное</a>
+    </div>
+    <aside class="announce">
+      <span class="badge badge--accent">Набор</span>
+      <p class="text-body">Набор в утренние группы открыт — старт [уточнить: дата старта]</p>
+    </aside>
+  </div>
+</section>
+
+<!-- ================= manifesto (reference: home-about) ================= -->
+<section class="section section-manifesto">
+  <div class="container inner">
+    <p class="credo text-h5">Мы верим, что йога — это не спорт и не достижение. Это способ вернуться домой — к дыханию, к опоре, к себе. Наши классы — про внимание и бережность, а не про идеальные формы.</p>
+    <div class="divider-v"></div>
+    <div class="values">
+      <div class="value-item">
+        <div class="icon"></div>
+        <span class="text-caption">Бережно к телу</span>
+      </div>
+      <div class="value-item">
+        <div class="icon"></div>
+        <span class="text-caption">Внимание к дыханию</span>
+      </div>
+      <div class="value-item">
+        <div class="icon"></div>
+        <span class="text-caption">Сообщество без оценок</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= directions (reference: home-classes) ================= -->
+<section class="section section-directions" id="directions">
+  <div class="container">
+    <div class="section-head section-head--split">
+      <div class="aside">
+        <span class="badge badge--accent">Направления</span>
+        <h2 class="text-h2">Три пути. Одно <em>намерение</em></h2>
+      </div>
+      <div class="aside">
+        <p class="text-body text-muted">Каждое занятие — это способ вернуться к себе: к телу, к присутствию, к дыханию.</p>
+        <a class="link-underline" href="#schedule">Всё расписание</a>
+      </div>
+    </div>
+    <div class="grid-3">
+      <article class="card-class">
+        <div class="media"><span class="media-slot-label text-caption">[ Фото направления ]</span></div>
+        <div class="body">
+          <h3 class="text-h5">Хатха</h3>
+          <p class="text-body text-muted">Спокойный темп, внимание к отстройке и дыханию. Лучший вход для новичков.</p>
+        </div>
+      </article>
+      <article class="card-class">
+        <div class="media"><span class="media-slot-label text-caption">[ Фото направления ]</span></div>
+        <div class="body">
+          <h3 class="text-h5">Виньяса</h3>
+          <p class="text-body text-muted">Динамичная практика: движение, связанное дыханием. Для тех, кто хочет силы и потока.</p>
+        </div>
+      </article>
+      <article class="card-class">
+        <div class="media"><span class="media-slot-label text-caption">[ Фото направления ]</span></div>
+        <div class="body">
+          <h3 class="text-h5">Инь и медитация</h3>
+          <p class="text-body text-muted">Медленные глубокие вытяжения и тишина. Перезагрузка для нервной системы.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= teachers (invented: анатомия Card/Class + сетка home-classes) ================= -->
+<section class="section section-teachers" id="teachers">
+  <div class="container">
+    <div class="section-head">
+      <span class="badge badge--accent">Преподаватели</span>
+      <h2 class="text-h2">Люди, которым не всё равно</h2>
+    </div>
+    <div class="grid-3">
+      <article class="card-teacher">
+        <div class="media"><span class="media-slot-label text-caption">[ Портрет ]</span></div>
+        <div class="body">
+          <h3 class="text-h5">Анна Ковалёва</h3>
+          <p class="text-body text-muted">Хатха, пренатальная йога · 9 лет практики. „Моя задача — чтобы вы ушли с занятия мягче, чем пришли.“</p>
+        </div>
+      </article>
+      <article class="card-teacher">
+        <div class="media"><span class="media-slot-label text-caption">[ Портрет ]</span></div>
+        <div class="body">
+          <h3 class="text-h5">Марат Исмаилов</h3>
+          <p class="text-body text-muted">Виньяса · 7 лет практики. „Сила — это не напряжение, а точность.“</p>
+        </div>
+      </article>
+      <article class="card-teacher">
+        <div class="media"><span class="media-slot-label text-caption">[ Портрет ]</span></div>
+        <div class="body">
+          <h3 class="text-h5">Вера Лапина</h3>
+          <p class="text-body text-muted">Инь, медитация · 12 лет практики. „Тишина — тоже практика.“</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= schedule (reference: timetable-schedule) ================= -->
+<section class="section section-schedule" id="schedule">
+  <div class="container">
+    <div class="section-head section-head--split">
+      <div class="aside">
+        <span class="badge badge--accent">Расписание</span>
+        <h2 class="text-h2">Неделя в «Опоре»</h2>
+      </div>
+      <div class="aside">
+        <p class="text-body text-muted">Приходите в любой день — уровень указан у каждого класса. Последнее обновление: [уточнить: дата обновления расписания].</p>
+      </div>
+    </div>
+    <div class="grid-4">
+      <div class="schedule-day">
+        <span class="day-name text-caption">Понедельник</span>
+        <div class="schedule-cell">
+          <span class="badge badge--accent">Новичкам</span>
+          <span class="text-body-bold">08:00–09:00</span>
+          <span class="text-body-lg">Хатха</span>
+          <span class="badge badge--outline">Анна К.</span>
+        </div>
+        <div class="schedule-cell">
+          <span class="badge badge--outline">Все уровни</span>
+          <span class="text-body-bold">19:30–20:45</span>
+          <span class="text-body-lg">Виньяса</span>
+          <span class="badge badge--outline">Марат И.</span>
+        </div>
+      </div>
+      <div class="schedule-day">
+        <span class="day-name text-caption">Среда</span>
+        <div class="schedule-cell">
+          <span class="badge badge--accent">Новичкам</span>
+          <span class="text-body-bold">08:00–09:00</span>
+          <span class="text-body-lg">Хатха</span>
+          <span class="badge badge--outline">Анна К.</span>
+        </div>
+        <div class="schedule-cell">
+          <span class="badge badge--outline">Все уровни</span>
+          <span class="text-body-bold">20:00–21:15</span>
+          <span class="text-body-lg">Инь и медитация</span>
+          <span class="badge badge--outline">Вера Л.</span>
+        </div>
+      </div>
+      <div class="schedule-day">
+        <span class="day-name text-caption">Пятница</span>
+        <div class="schedule-cell">
+          <span class="badge badge--outline">Все уровни</span>
+          <span class="text-body-bold">19:30–20:45</span>
+          <span class="text-body-lg">Виньяса</span>
+          <span class="badge badge--outline">Марат И.</span>
+        </div>
+      </div>
+      <div class="schedule-day">
+        <span class="day-name text-caption">Суббота</span>
+        <div class="schedule-cell">
+          <span class="badge badge--accent">Новичкам</span>
+          <span class="text-body-bold">10:00–11:15</span>
+          <span class="text-body-lg">Хатха</span>
+          <span class="badge badge--outline">Анна К.</span>
+        </div>
+        <div class="schedule-cell">
+          <span class="badge badge--outline">Все уровни</span>
+          <span class="text-body-bold">12:00–13:15</span>
+          <span class="text-body-lg">Инь и медитация</span>
+          <span class="badge badge--outline">Вера Л.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= pricing (reference: store-pricing + сетка home-classes) ================= -->
+<section class="section section-pricing" id="pricing">
+  <div class="container">
+    <div class="section-head">
+      <span class="badge badge--accent">Тарифы</span>
+      <h2 class="text-h2">Честно и без мелкого шрифта</h2>
+    </div>
+    <div class="grid-3">
+      <article class="card-pricing">
+        <h3 class="text-h5">Пробное занятие</h3>
+        <p class="text-body text-muted">Первое знакомство со студией и преподавателем.</p>
+        <p class="price text-body-bold">500 ₽</p>
+      </article>
+      <article class="card-pricing">
+        <h3 class="text-h5">Разовое занятие</h3>
+        <p class="text-body text-muted">Приходите, когда получается — без обязательств.</p>
+        <p class="price text-body-bold">1 200 ₽</p>
+      </article>
+      <article class="card-pricing">
+        <h3 class="text-h5">Абонемент на 8 занятий</h3>
+        <p class="text-body text-muted">Оптимальный ритм: дважды в неделю. Действует 6 недель.</p>
+        <p class="price text-body-bold">7 600 ₽</p>
+      </article>
+    </div>
+    <div class="cta-row">
+      <a class="button" href="#cta">Начать с пробного</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= faq (invented: список с делителями) ================= -->
+<section class="section section-faq" id="faq">
+  <div class="container">
+    <div class="section-head">
+      <span class="badge badge--accent">Вопросы</span>
+      <h2 class="text-h2">Перед первым занятием</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item" open>
+        <summary class="text-body-bold">Я никогда не занимался йогой. Мне подойдёт?</summary>
+        <p class="answer text-body text-muted">Да. Приходите на хатху с пометкой „Новичкам“ — преподаватель предложит вариант каждой позы под ваш уровень.</p>
+      </details>
+      <details class="faq-item" open>
+        <summary class="text-body-bold">Что взять с собой?</summary>
+        <p class="answer text-body text-muted">Удобную одежду, в которой не жмёт. Коврики, ремни и пледы есть в студии — бесплатно.</p>
+      </details>
+      <details class="faq-item" open>
+        <summary class="text-body-bold">Я не гибкий. Это проблема?</summary>
+        <p class="answer text-body text-muted">Нет. Гибкость — следствие практики, а не условие для неё.</p>
+      </details>
+      <details class="faq-item" open>
+        <summary class="text-body-bold">Можно прийти одному?</summary>
+        <p class="answer text-body text-muted">Большинство приходит поодиночке. Через пару занятий лица становятся знакомыми.</p>
+      </details>
+      <details class="faq-item" open>
+        <summary class="text-body-bold">Как отменить запись?</summary>
+        <p class="answer text-body text-muted">В сообщении студии за [уточнить: срок отмены] до занятия — без списания с абонемента.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= cta (reference: home-events, режим dark; форма — по полям футера) ================= -->
+<section class="section section-cta" id="cta" data-theme="dark">
+  <div class="container inner">
+    <span class="badge badge--accent">Пробное занятие</span>
+    <h2 class="text-h1">Начни с <em>одного</em> занятия</h2>
+    <p class="lead text-body-lg">500 ₽, 60 минут, преподаватель рядом. Если не понравится — просто не вернётесь. Но обычно возвращаются.</p>
+    <form action="#" method="post">
+      <input class="input" type="text" name="name" placeholder="Имя">
+      <input class="input" type="tel" name="phone" placeholder="Телефон">
+      <button class="button" type="submit">Записаться</button>
+    </form>
+    <p class="text-body text-muted">Перезвоним в течение дня и подберём группу.</p>
+  </div>
+</section>
+
+<!-- ================= footer (reference: home-footer, режим dark) ================= -->
+<footer class="section section-footer" data-theme="dark">
+  <div class="container inner">
+    <p class="slogan text-display">Найди свой <em>ритм</em></p>
+    <div class="cols">
+      <div class="col">
+        <span class="col-title text-caption">Контакты</span>
+        <p class="text-body">Москва, [уточнить: адрес студии]</p>
+        <p class="text-body">[уточнить: телефон]</p>
+        <p class="text-body">hello@opora.studio [уточнить: почта]</p>
+      </div>
+      <div class="col">
+        <span class="col-title text-caption">Навигация</span>
+        <a class="text-body" href="#directions">Направления</a>
+        <a class="text-body" href="#teachers">Преподаватели</a>
+        <a class="text-body" href="#schedule">Расписание</a>
+        <a class="text-body" href="#pricing">Тарифы</a>
+        <a class="text-body" href="#faq">Вопросы</a>
+      </div>
+      <div class="col">
+        <span class="col-title text-caption">Соцсети</span>
+        <a class="text-body" href="#">Telegram</a>
+        <a class="text-body" href="#">Instagram*</a>
+        <a class="text-body" href="#">YouTube</a>
+        <p class="text-body text-muted">* Meta признана экстремистской организацией в РФ</p>
+      </div>
+    </div>
+    <div class="polaroids">
+      <div class="polaroid">
+        <div class="photo"><span class="media-slot-label text-caption">[ Фото ]</span></div>
+        <span class="text-caption text-muted">Практика</span>
+      </div>
+      <div class="polaroid">
+        <div class="photo"><span class="media-slot-label text-caption">[ Фото ]</span></div>
+        <span class="text-caption text-muted">Студия</span>
+      </div>
+      <div class="polaroid">
+        <div class="photo"><span class="media-slot-label text-caption">[ Фото ]</span></div>
+        <span class="text-caption text-muted">Чай после практики</span>
+      </div>
+    </div>
+    <div class="legal text-body">
+      <span>© 2026 Студия йоги «Опора»</span>
+      <a href="#">Оферта</a>
+      <a href="#">Политика данных</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

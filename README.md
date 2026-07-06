@@ -80,7 +80,10 @@ Code: попроси агента прочитать `DESIGN-CONTRACT.md` и `do
 проект по ним. Агент останавливается на гейтах — твоя работа смотреть глазами
 и говорить «утверждаю» или давать правки.
 
-Живой пример полного прогона — [`examples/yoga-school-demo`](examples/yoga-school-demo).
+Живые примеры: полный прогон — [`examples/yoga-school-demo`](examples/yoga-school-demo)
+(путь figma-mcp); те же фазы 4–6 без Figma —
+[`examples/opora-pencil`](examples/opora-pencil) и
+[`examples/opora-html-fallback`](examples/opora-html-fallback).
 
 ## Состав репозитория
 
