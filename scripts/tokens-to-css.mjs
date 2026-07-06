@@ -22,6 +22,9 @@ const outPath = resolve(process.argv[3] ?? "project/prototype/tokens.css");
 const t = JSON.parse(readFileSync(tokensPath, "utf8"));
 const L = [];
 
+/** Unwrap a value node: plain literal or { value, ... }. */
+const val = (x) => (x !== null && typeof x === "object" && "value" in x ? x.value : x);
+
 L.push(`/* tokens.css — GENERATED from project/tokens.json by tokens-to-css.mjs.`);
 L.push(` * DO NOT EDIT BY HAND — правь tokens.json и перегенерируй (no-detached-values).`);
 L.push(` * Проект: ${t.meta.project}; дата генерации: источник tokens.json от ${t.meta.date}. */`);
@@ -78,6 +81,17 @@ L.push(`  /* grid */`);
 for (const [bp, g] of Object.entries(t.grid)) {
   L.push(`  --container-${bp}: ${g.container}px;`);
   L.push(`  --gutter-${bp}: ${g.gutter}px;`);
+}
+
+if (t.motion && (t.motion.durations || t.motion.easings)) {
+  L.push(``);
+  L.push(`  /* motion (optional) — durations in ms, easings as timing-functions */`);
+  for (const [k, v] of Object.entries(t.motion.durations ?? {})) {
+    L.push(`  --motion-duration-${k}: ${val(v)}ms;`);
+  }
+  for (const [k, v] of Object.entries(t.motion.easings ?? {})) {
+    L.push(`  --motion-ease-${k}: ${val(v)};`);
+  }
 }
 
 L.push(`}`);

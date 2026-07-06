@@ -60,6 +60,28 @@ variables в Figma: `--color-bg`, `--color-text-primary`, `--font-size-h1`,
 единственные «сырые» числа, допустимые в `@media`, поскольку CSS не позволяет
 var() в media query; их происхождение — tokens.json, это фиксируется комментарием).
 
+### Иконки
+
+Иконки — вектором из Reicon по `docs/icons.md`: извлечь `scripts/fetch-icons.mjs`
+и вставить inline `<svg>` в разметку. Цвет — `color: var(--color-…)` на родителе;
+иконка наследует его через `currentColor` (`icon-color-from-roles`). Ручная отрисовка
+и другие коллекции запрещены (`icons-from-collection`).
+
+### Моушен (GSAP)
+
+HTML-путь — единственный, где моушен реализуется живым кодом (`docs/motion.md`),
+по motion-spec.md проекта (артефакт фазы 5).
+
+- GSAP (+ScrollTrigger) подключается через CDN в `index.html` — единственная внешняя
+  зависимость прототипа; в комплект ничего не добавляется.
+- Паттерны — канонические скелеты из `library/motion/`. Длительности и easing — через
+  `var(--motion-…)` из tokens.css (группа motion), не хардкодом.
+- **Запрет** `window.addEventListener("scroll", …)` для анимаций — только ScrollTrigger.
+- **`prefers-reduced-motion` обязателен** (`motion-reduced`): регистрацию анимаций
+  оборачивать в `matchMedia("(prefers-reduced-motion: no-preference)")`, при reduce —
+  оставлять статичное финальное состояние. Проверяется на гейте 4.
+- Максимум один pin-паттерн (sticky-stack / horizontal-pan) на страницу.
+
 ### Правила контракта в HTML-терминах
 
 | Правило | В прототипе означает |
@@ -67,6 +89,8 @@ var() в media query; их происхождение — tokens.json, это ф
 | `instances-only` | Разметка секций переиспользует классы-компоненты. Нужен новый паттерн → сначала класс в components.css (+ worklog), потом использование. Инлайн-стили запрещены. |
 | `no-detached-values` | В CSS-значениях — только `var(--...)`. Никаких магических чисел, hex-цветов, px-отступов в правилах классов. Исключения — поимённо в worklog. |
 | `reference-source-of-truth` | Ничего «на глаз» с эталонных скриншотов — только tokens.json. |
+| `icons-from-collection` | Иконки — только inline-SVG из Reicon (fetch-icons), один вес, цвет через `currentColor` от роли. Ни `<svg>` руками, ни icon-font, ни другой коллекции. |
+| `motion-reduced` | Всякая GSAP-анимация обёрнута в проверку `prefers-reduced-motion`; scroll-listener'ы для анимаций запрещены. |
 | `worklog-required` | Decision trail ведётся так же; чек-лист самопроверки — по аналогии с фазой 4. |
 
 ## Фаза 6-fb: верификация в браузере
@@ -75,8 +99,10 @@ var() в media query; их происхождение — tokens.json, это ф
 
 1. **Аудит** — вместо get_variable_defs: grep по CSS на значения вне `var(--...)`
    (hex, rgb, px в декларациях), проверка полноты секций против content-doc,
-   совпадения текстов, отсутствия инлайн-стилей. Найденное сверяется с
-   «Утверждёнными исключениями» worklog.
+   совпадения текстов, отсутствия инлайн-стилей. Плюс моушен: grep на
+   `addEventListener('scroll'` / `"scroll"` в JS (для анимаций — запрещён) и наличие
+   `prefers-reduced-motion` (`motion-reduced`); иконки — inline-SVG из Reicon, не hex
+   в заливке. Найденное сверяется с «Утверждёнными исключениями» worklog.
 2. **Скриншот-сверка** — открыть прототип в браузере, снять скриншоты каждой секции
    на обеих ширинах (десктопный и мобильный брейкпоинты), сверить с эталонами из
    `project/reference-shots/` по тем же критериям (композиция, иерархия, плотность;

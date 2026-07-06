@@ -26,12 +26,12 @@
 | Фаза | Читать перед работой | Выход фазы |
 | --- | --- | --- |
 | 0. Инициализация | DESIGN-CONTRACT.md целиком | project/inputs.md: референсы (URL/файлы), бриф или готовый контент, масштаб проекта, брейкпоинты, версия комплекта (`git describe --tags --always` из репо комплекта) |
-| 1. Reference Study | extraction-css.md и/или extraction-vision.md (по формату референса) | reference-study.md, reference-inventory.md, эталонные скриншоты в project/reference-shots/ |
-| 2. Дизайн-система | tokens-format.md; для specimen — figma-library-rules.md §specimen | tokens.json (валиден по scripts/validate-tokens.mjs), design-system.md, specimen в Figma (обязателен для гейта 1) |
-| 3. Контент | content-doc-format.md | content-doc.md (принятый готовый или сгенерированный из брифа) |
-| 4. Библиотека | figma-library-rules.md; без Figma MCP — pencil-path.md (Pencil) или fallback-html.md (HTML) | Variables + компоненты (Figma / .pen / CSS); план библиотеки в worklog |
-| 5. Сборка | assembly-rules.md | Страницы в Figma (desktop + mobile), источник композиции каждой секции в worklog |
-| 6. Верификация | verification.md | verification-report.md, исправленные расхождения |
+| 1. Reference Study | extraction-css.md и/или extraction-vision.md (по формату референса); стиль иконок и моушен референса — icons.md §Фаза 1, motion.md (уровни A/B/C) | reference-study.md (с разделами «Иконки», «Моушен»), reference-inventory.md, эталонные скриншоты в project/reference-shots/ |
+| 2. Дизайн-система | tokens-format.md (вкл. опциональную группу motion); для specimen — figma-library-rules.md §specimen | tokens.json (валиден по scripts/validate-tokens.mjs), design-system.md, specimen в Figma (обязателен для гейта 1) |
+| 3. Контент | content-doc-format.md | content-doc.md (принятый готовый или сгенерированный из брифа); иконки — семантически |
+| 4. Библиотека | figma-library-rules.md, icons.md; без Figma MCP — pencil-path.md (Pencil) или fallback-html.md (HTML) | Variables + компоненты (Figma / .pen / CSS); иконки в слотах (fetch-icons); план библиотеки и маппинг иконок в worklog |
+| 5. Сборка | assembly-rules.md, motion.md | Страницы (desktop + mobile), источник композиции каждой секции в worklog, motion-spec.md |
+| 6. Верификация | verification.md, anti-patterns.md | verification-report.md, исправленные расхождения |
 | 7. Harvest | library/README.md | Кандидаты-паттерны, после утверждения — файлы в library/ |
 
 Если задача затрагивает несколько фаз (например, правка токенов после сдачи) — читать

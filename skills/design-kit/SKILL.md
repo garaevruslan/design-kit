@@ -53,6 +53,13 @@ description: >-
   `tokens-before-pixels`, «Пути без Figma MCP»).
 - **Никаких значений из памяти.** Цвета/шрифты/отступы — только из извлечённых данных
   или tokens.json (`reference-source-of-truth`, `tokens-before-pixels`).
+- **Иконки и моушен.** Иконки — только вектор из Reicon через
+  `scripts/fetch-icons.mjs`, один вес на проект, цвет через роли
+  (`icons-from-collection`, `docs/icons.md`). Моушен — артефакт `project/motion-spec.md`
+  на фазе 5 (обязателен даже для статики: строка с причиной), живой GSAP только в
+  HTML-пути; значения не выдумывать из наблюдения — уровни A/B/C (`docs/motion.md`).
+  На гейте 4 — чек-лист анти-паттернов только для invented-секций (`docs/anti-patterns.md`,
+  референс побеждает).
 - **Worklog по ходу, не задним числом** (`worklog-required`).
 - **tokens.json валидируй скриптом** `node scripts/validate-tokens.mjs project/tokens.json`
   до предъявления на гейт 1.

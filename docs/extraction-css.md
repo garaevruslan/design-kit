@@ -111,6 +111,51 @@ font-family (первый шрифт стека) для `font-license-check`.
 - Контейнер — `max-width` и горизонтальные паддинги основного wrapper'а.
 - Сетка — число колонок и gap ключевых `display: grid/flex` секций.
 
+### 7. Моушен (уровни A и B)
+
+Моушен извлекается двумя уровнями достоверности (`docs/motion.md`, правило
+`motion-observed-classified`). Результат — раздел «Моушен» в reference-study.md.
+
+**Уровень A — детерминированное чтение CSSOM** (confidence `high`). Это чтение кода,
+не наблюдение: читаем transitions, keyframes, `:hover`/`:focus` прямо из правил (курсор
+наводить не нужно), sticky/fixed и подключённые библиотеки.
+
+```js
+() => {
+  const out = { transitions: [], keyframes: [], hoverRules: [], sticky: [], libs: {} };
+  const push = (arr, v) => { if (v && arr.length < 40 && !arr.includes(v)) arr.push(v); };
+  for (const el of document.querySelectorAll('body *')) {
+    const s = getComputedStyle(el);
+    if (s.transitionDuration !== '0s')
+      push(out.transitions, `${s.transitionProperty} ${s.transitionDuration} ${s.transitionTimingFunction}`);
+    if (s.animationName !== 'none') push(out.keyframes, `${s.animationName} ${s.animationDuration} ${s.animationTimingFunction}`);
+    if (s.position === 'sticky' || s.position === 'fixed') {
+      const sel = el.tagName.toLowerCase() + (typeof el.className === 'string' && el.className ? '.' + el.className.trim().split(/\s+/)[0] : '');
+      push(out.sticky, `${s.position}: ${sel}`);
+    }
+  }
+  for (const sheet of document.styleSheets) {
+    let rules; try { rules = sheet.cssRules; } catch { continue; } // CORS
+    for (const r of rules) if (r.selectorText && /:hover|:focus/.test(r.selectorText)) push(out.hoverRules, r.selectorText);
+    for (const r of rules) if (r.type === CSSRule.KEYFRAMES_RULE) push(out.keyframes, `@keyframes ${r.name}`);
+  }
+  out.libs = { gsap: !!window.gsap, ScrollTrigger: !!(window.ScrollTrigger || window.gsap?.ScrollTrigger),
+    lenis: !!window.Lenis, aos: !!document.querySelector('[data-aos]'),
+    framerMotion: !!document.querySelector('[data-framer-name],[style*="transform"][data-projection-id]') };
+  return out;
+}
+```
+
+Из уровня A берутся **реальные длительности и easing** — они пойдут в группу `motion`
+tokens.json. Пометка: `source: css`.
+
+**Уровень B — классификация поведения** (confidence `medium`, пометка обязательна).
+Программный скролл страницы с сэмплированием `transform`/`opacity` ключевых секций;
+результат — не значения, а имя паттерна из `library/motion/` («секция ведёт себя как
+sticky-stack / horizontal-pan / reveal / stagger»). Числа для этого паттерна берутся из
+уровня A или из дефолтов каталога, **не выдумываются из наблюдения**. Секции без моушена
+в референсе моушена не получают (или получают уровень C на фазе 5 — изобретение).
+
 ## Эталонные скриншоты
 
 Каждая видимая секция каждой инспектируемой страницы → скриншот в
@@ -126,6 +171,8 @@ font-family (первый шрифт стека) для `font-license-check`.
 - [ ] Типографика: все комбинации с частотой и элементами; шрифты — в проверку лицензий
 - [ ] Spacing: частотная таблица, базовый шаг, шкала, выбросы
 - [ ] Радиусы, тени, брейкпоинты, контейнер/сетка зафиксированы
+- [ ] Иконки: стиль зафиксирован (вес, штрих, размер) → выбор веса Reicon (docs/icons.md §Фаза 1)
+- [ ] Моушен: уровень A (CSSOM: transitions/keyframes/hover/sticky/libs) снят; уровень B — классификация паттернов, значения не выдуманы
 - [ ] Несколько страниц/состояний покрыты (или сайт одностраничный — отмечено)
 - [ ] Скриншоты всех секций в reference-shots/, десктоп + мобайл
 - [ ] reference-study.md заполнен, статус `ran-original`

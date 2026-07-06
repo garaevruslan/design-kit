@@ -50,6 +50,8 @@ docs/extraction-vision.md. Машинные значения полей — ан
 | Spacing | {{базовый шаг Ypx, шкала ...}} | §4 |
 | Радиусы и тени | {{...}} | §5 |
 | Брейкпоинты / сетка | {{...}} | §6 |
+| Иконки | {{вес outline/filled, штрих, размер → вес Reicon}} | §7 |
+| Моушен | {{уровень A: N transitions + easing; B: паттерны; libs}} | §8 |
 
 ### §1. CSS variables
 {{таблица: имя → значение → селектор темы / n/a}}
@@ -68,6 +70,16 @@ docs/extraction-vision.md. Машинные значения полей — ан
 
 ### §6. Брейкпоинты, контейнер, сетка
 {{media queries / контейнер max-width / колонки и gap}}
+
+### §7. Иконки (`docs/icons.md` §Фаза 1)
+{{вес: контурные/сплошные; толщина штриха; скругления; характерный размер (16/20/24/32);
+  evidence → выбранный вес Reicon (outline/filled) + пометка «приближение», если штрих ≠ 1.5px}}
+
+### §8. Моушен (`docs/motion.md`, уровни A/B/C)
+{{уровень A (CSSOM, css-путь): transitions/keyframes/hover/sticky, обнаруженные libs
+  (gsap/ScrollTrigger/lenis/aos), реальные длительности + easing → группа motion tokens;
+  уровень B: классификация паттернов секций (sticky-stack / horizontal-pan / reveal / stagger);
+  vision-путь: моушен нечитаем → весь моушен = уровень C (изобретение на фазе 5)}}
 
 ## Лицензии шрифтов (`font-license-check`)
 

@@ -14,6 +14,8 @@
  *   5. Every font family has a non-empty `license` field (font-license-check).
  *   6. Every value with source "vision" carries a `confidence` field
  *      (vision-values-snapped).
+ *   7. Optional `motion` group: durations are positive numbers (ms), easings are
+ *      non-empty strings. Absent group is valid (static projects, older tokens).
  *
  * Output format:  ERROR|WARN: json.path — message
  * Exit code: 1 if any errors, 0 if only warnings (or clean).
@@ -465,6 +467,37 @@ function validateBreakpointsAndGrid(breakpoints, grid) {
   }
 }
 
+// ------------------------------------------------ section: motion (optional)
+
+function validateMotion(motion) {
+  if (motion === undefined) return; // optional section — absence is valid
+  if (!isPlainObject(motion)) {
+    err("motion", "expected an object with durations and/or easings");
+    return;
+  }
+  if ("durations" in motion) {
+    if (!isPlainObject(motion.durations) || Object.keys(motion.durations).length === 0) {
+      err("motion.durations", "expected a non-empty object of named durations in ms");
+    } else {
+      for (const name of Object.keys(motion.durations)) {
+        requireNumber(motion.durations[name], `motion.durations.${name}`, { min: 0 });
+      }
+    }
+  }
+  if ("easings" in motion) {
+    if (!isPlainObject(motion.easings) || Object.keys(motion.easings).length === 0) {
+      err("motion.easings", "expected a non-empty object of named CSS timing-functions");
+    } else {
+      for (const name of Object.keys(motion.easings)) {
+        requireString(motion.easings[name], `motion.easings.${name}`);
+      }
+    }
+  }
+  if (!("durations" in motion) && !("easings" in motion)) {
+    warn("motion", "motion section present but empty — add durations and/or easings, or drop it");
+  }
+}
+
 // ------------------------------------------------------------------- main
 
 function main() {
@@ -508,6 +541,7 @@ function main() {
   validateRadius(tokens.radius);
   validateShadows(tokens.shadows);
   validateBreakpointsAndGrid(tokens.breakpoints, tokens.grid);
+  validateMotion(tokens.motion); // optional section
 
   // 6. Provenance: source/confidence on every value node in the document.
   checkProvenance(tokens, "");
