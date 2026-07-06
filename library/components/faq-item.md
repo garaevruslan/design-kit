@@ -8,7 +8,9 @@
 
 ## Props / варианты
 
-`state=collapsed|expanded`
+`kind=list|card` × `state=collapsed|expanded`
+(kind=card добавлен при дообогащении 2026-07-06 — референсная композиция FAQ
+с детальных страниц: `expandable-single`)
 
 ## Состояния
 
@@ -17,13 +19,14 @@
 
 ## Слоты контента
 
-- question — вопрос (body-lg)
+- question — вопрос (kind=list: body-lg; kind=card: body-bold)
 - answer — ответ (body, text-muted), только в expanded
 - chevron — глиф +/−
 
 ## Роли токенов (только роли, не значения)
 
-text, text-muted, border (нижний делитель), spacing (паддинги 16/4, gap 12)
+- kind=list: text, text-muted, border (нижний делитель), spacing (паддинги 16/4, gap 12)
+- kind=card: + surface (подложка), radius.md, spacing (паддинг 24)
 
 ## Мобильное поведение
 

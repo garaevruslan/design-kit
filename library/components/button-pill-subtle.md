@@ -8,7 +8,9 @@
 
 ## Props / варианты
 
-`state=default|hover`
+`size=md|sm` × `state=default|hover`
+(size=sm добавлен при дообогащении 2026-07-06: малая кнопка `cta-small` референса
+для карточек и плотных контекстов)
 
 ## Состояния
 
@@ -21,7 +23,7 @@
 
 ## Роли токенов (только роли, не значения)
 
-fill-subtle, border, text, radius.lg, spacing (паддинги 12/20)
+fill-subtle, border, text, radius.lg, spacing (паддинги md: 12/20; sm: 8/16)
 
 ## Мобильное поведение
 
