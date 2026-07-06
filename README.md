@@ -41,14 +41,23 @@ worklog с decision trail, машинные проверки.
 
 Шаги:
 
-1. Клонируй репозиторий.
-2. Если у тебя Claude Code — скопируй скилл:
-   `cp -r skills/design-kit ~/.claude/skills/design-kit`
-3. Скажи агенту: «новый проект design-kit, референс — <URL>, продукт — <бриф>»
-   (или вызови скилл `/design-kit`). Без Claude Code: попроси агента прочитать
-   `DESIGN-CONTRACT.md` и `docs/workflow.md` и вести проект по ним.
-4. Дальше агент ведёт сам и останавливается на гейтах — твоя работа смотреть
-   глазами и говорить «утверждаю» или давать правки.
+```bash
+# 1. Клонировать комплект (один раз; обновления — git pull)
+gh repo clone garaevruslan/design-kit
+
+# 2. Claude Code: установить скилл
+cp -r design-kit/skills/design-kit ~/.claude/skills/design-kit
+
+# 3. Создать проект (каждый новый проект — одной командой)
+node design-kit/scripts/create-project.mjs my-landing
+```
+
+Дальше: заполни `my-landing/project/inputs.md` (референс + бриф) и скажи агенту
+«продолжаем проект design-kit в my-landing» — или сразу «новый проект design-kit,
+референс — <URL>, продукт — <бриф>», тогда агент выполнит шаг 3 сам. Без Claude
+Code: попроси агента прочитать `DESIGN-CONTRACT.md` и `docs/workflow.md` и вести
+проект по ним. Агент останавливается на гейтах — твоя работа смотреть глазами
+и говорить «утверждаю» или давать правки.
 
 Живой пример полного прогона — [`examples/yoga-school-demo`](examples/yoga-school-demo).
 
