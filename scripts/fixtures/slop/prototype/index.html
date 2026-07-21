@@ -1,0 +1,29 @@
+<!doctype html>
+<!-- Фикстура для lint-slop.mjs — НАМЕРЕННО слоповая разметка.
+     hero и manifesto помечены в worklog как reference → находки там должны
+     понижаться до warning «reference-inherited»; teachers — invented, полная строгость.
+     Тексты английские: T21 ловит англоязычные баззворды regex-ом. -->
+<html lang="en">
+<body>
+
+<section class="section section-hero" id="top">
+  <span class="badge">BETA</span>                              <!-- T32 -->
+  <h1>Empower your business with a seamless and truly unlimited workflow platform today</h1>
+  <a class="button cta" href="#">Get Started</a>               <!-- T21 generic CTA -->
+  <div class="scroll-hint">Scroll down</div>                   <!-- T32 -->
+</section>
+
+<section class="section section-manifesto">
+  <h1>Streamline everything</h1>                               <!-- T21 -->
+  <a class="button" href="#">Learn more about our approach</a> <!-- T30 -->
+</section>
+
+<section class="section section-teachers">
+  <!-- invented-секция: те же теллы должны идти в полной строгости -->
+  <h1>Unlock the potential of every single person on your growing distributed team</h1>
+  <div class="marquee">one</div>                               <!-- T34 -->
+  <div class="marquee">two</div>
+</section>
+
+</body>
+</html>

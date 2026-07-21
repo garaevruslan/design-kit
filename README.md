@@ -93,7 +93,7 @@ Code: попроси агента прочитать `DESIGN-CONTRACT.md` и `do
 | `docs/` | Правила фаз: извлечение (CSS/vision-путь), формат токенов, контент-док, иконки, моушен, библиотека Figma, сборка, верификация, анти-паттерны, пути без Figma (pencil-path, fallback-html) |
 | `templates/` | Шаблоны артефактов проекта (study, inventory, worklog, пример tokens.json) |
 | `library/` | **Библиотека паттернов**: скелеты секций, схемы компонентов и паттерны моушена без визуального слоя — растёт с каждым прогоном |
-| `scripts/` | validate-tokens.mjs (валидатор: шкалы, роли, WCAG, лицензии, моушен), lint-slop.mjs (детекция AI-слоп-теллов по каталогу анти-паттернов), create-project.mjs (скаффолдер), fetch-icons.mjs (иконки Reicon по требованию), tokens-to-css.mjs и tokens-to-pen-vars.mjs (генераторы переменных для путей fallback-html/pencil) |
+| `scripts/` | validate-tokens.mjs (валидатор: шкалы, роли, WCAG, лицензии, моушен), lint-slop.mjs (детекция AI-слоп-теллов по каталогу анти-паттернов) + lint-slop.test.mjs и fixtures/ (регрессия линтера), create-project.mjs (скаффолдер), fetch-icons.mjs (иконки Reicon по требованию), tokens-to-css.mjs и tokens-to-pen-vars.mjs (генераторы переменных для путей fallback-html/pencil) |
 | `skills/design-kit/` | Скилл-дирижёр для Claude Code |
 | `examples/` | Полные прогоны с артефактами и worklog |
 | `CONTRIBUTING.md` | Как отдать паттерны и уроки своего прогона в комплект (PR) |
