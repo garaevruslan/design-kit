@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "page": "01 Specimen",
+    "rootId": "3:26",
+    "rootName": "Controls",
+    "nodeCount": 9,
+    "generator": "dump-tree.js v1",
+    "source": "Живой дамп прогона yoga-school-demo (файл bkzr5tnd8LAsAwL38Zu0H1, страница «01 Specimen», секция Controls), снят 2026-07-21 через use_figma. Не выдуманные данные: формат гарантированно совпадает с тем, что отдаёт dump-tree.js."
+  },
+  "nodes": [
+    {"id":"3:26","name":"Controls","type":"FRAME","parent":null,"box":[64,876,1072,80],"layoutMode":"VERTICAL","fills":[],"strokes":[],"radius":0,"padding":[0,0,0,0],"gap":24},
+    {"id":"3:27","name":"CONTROLS — LIGHT","type":"TEXT","parent":"3:26","box":[0,0,128,16],"fills":[{"t":"SOLID","v":"#594a3c","o":0.6392157077789307,"vis":true,"b":"VariableID:2:19"}],"strokes":[],"boundKeys":["fills"],"chars":"CONTROLS — LIGHT","fontSize":12,"font":"Manrope SemiBold","textCase":"ORIGINAL"},
+    {"id":"3:28","name":"Row","type":"FRAME","parent":"3:26","box":[0,40,381,40],"layoutMode":"HORIZONTAL","fills":[],"strokes":[],"radius":0,"padding":[0,0,0,0],"gap":16},
+    {"id":"3:29","name":"Button/Записаться на пробное","type":"FRAME","parent":"3:28","box":[0,0,218,40],"layoutMode":"HORIZONTAL","fills":[{"t":"SOLID","v":"#594a3c","o":0.07999999821186066,"vis":true,"b":"VariableID:7:4"}],"strokes":[{"t":"SOLID","v":"#594a3c","o":0.16078431904315948,"vis":true,"b":"VariableID:2:22"}],"boundKeys":["fills","strokes"],"radius":24,"padding":[12,20,12,20],"gap":0},
+    {"id":"3:30","name":"ЗАПИСАТЬСЯ НА ПРОБНОЕ","type":"TEXT","parent":"3:29","box":[20,12,178,16],"fills":[{"t":"SOLID","v":"#594a3c","o":1,"vis":true,"b":"VariableID:2:18"}],"strokes":[],"boundKeys":["fills"],"chars":"ЗАПИСАТЬСЯ НА ПРОБНОЕ","fontSize":12,"font":"Manrope SemiBold","textCase":"ORIGINAL"},
+    {"id":"3:31","name":"Badge/Хатха","type":"FRAME","parent":"3:28","box":[234,9,52,22],"layoutMode":"HORIZONTAL","fills":[{"t":"SOLID","v":"#e6f6ba","o":1,"vis":true,"b":"VariableID:2:20"}],"strokes":[],"boundKeys":["fills"],"radius":8,"padding":[4,8,4,8],"gap":0},
+    {"id":"3:32","name":"ХАТХА","type":"TEXT","parent":"3:31","box":[8,4,36,14],"fills":[{"t":"SOLID","v":"#594a3c","o":1,"vis":true,"b":"VariableID:2:21"}],"strokes":[],"boundKeys":["fills"],"chars":"ХАТХА","fontSize":10,"font":"Manrope SemiBold","textCase":"ORIGINAL"},
+    {"id":"3:33","name":"Badge/Новичкам","type":"FRAME","parent":"3:28","box":[302,9,79,22],"layoutMode":"HORIZONTAL","fills":[{"t":"SOLID","v":"#e6f6ba","o":1,"vis":true,"b":"VariableID:2:20"}],"strokes":[],"boundKeys":["fills"],"radius":8,"padding":[4,8,4,8],"gap":0},
+    {"id":"3:34","name":"НОВИЧКАМ","type":"TEXT","parent":"3:33","box":[8,4,63,14],"fills":[{"t":"SOLID","v":"#594a3c","o":1,"vis":true,"b":"VariableID:2:21"}],"strokes":[],"boundKeys":["fills"],"chars":"НОВИЧКАМ","fontSize":10,"font":"Manrope SemiBold","textCase":"ORIGINAL"}
+  ]
+}
