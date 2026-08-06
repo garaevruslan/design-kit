@@ -2,7 +2,7 @@
 
 | Поле | Значение |
 | --- | --- |
-| Версия комплекта | v1.0-3-g5ceb730 (репо: /Users/garaevruslan/Documents/VS Code/design-kit) |
+| Версия комплекта | v1.0-3-g5ceb730 (репо: /Users/garaevruslan/Documents/VS Code/gems/design-kit) |
 | Дата старта | 2026-07-06 |
 
 ## Референсы
